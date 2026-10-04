@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>小真和朋友们</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Noto+Sans+SC:wght@400;500&family=Nunito:wght@700;800&display=swap">
+<style>
+html{-webkit-text-size-adjust:100%}
+/* Layout: a bookshelf — the three friends on top, then one big tappable cover per episode, newest last. Same paper + crayon palette as the episodes. */
+:root{
+  --paper:#FBF8F1; --card:#FFFFFF; --ink:#22252B; --muted:#6A6F7A;
+  --sea:#2F6FD0; --sea-soft:#E3EEFB; --crayon:#E2533B; --sun:#F4C534; --line:#DCD6C8;
+  --display:"ZCOOL KuaiLe","Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+  --body:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+  --latin:"Nunito","Noto Sans SC",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#1B1D22; --card:#25282F; --ink:#F1EEE6; --muted:#A9ADB6; --sea:#7FB0F5; --sea-soft:#22324A; --crayon:#FF8169; --line:#3A3E47; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#1B1D22; --card:#25282F; --ink:#F1EEE6; --muted:#A9ADB6; --sea:#7FB0F5; --sea-soft:#22324A; --crayon:#FF8169; --line:#3A3E47; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);margin:0}
+.wrap{max-width:720px;margin:0 auto;padding-block:28px 64px;padding-inline:16px;display:flex;flex-direction:column;gap:28px}
+header{display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center}
+.faces{display:flex;gap:10px}
+.faces img{width:64px;height:64px;border-radius:50%;border:3px solid var(--ink);object-fit:cover;background:#fff}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(2.4rem,10vw,3.4rem);margin:0;line-height:1.1;color:var(--sea);text-wrap:balance}
+.sub{font-family:var(--latin);font-weight:700;color:var(--muted);font-size:.95rem;margin:0}
+.shelf{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:22px}
+.ep{display:flex;flex-direction:column;text-decoration:none;color:var(--ink);background:var(--card);border:3px solid var(--ink);border-radius:14px;overflow:hidden;box-shadow:4px 5px 0 var(--ink);transition:transform .15s}
+.ep:hover{transform:translateY(-3px) rotate(-.5deg)}
+.ep:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+.ep img{display:block;width:100%;aspect-ratio:1;object-fit:cover;border-bottom:3px solid var(--ink)}
+.info{padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px}
+.num{font-family:var(--latin);font-weight:800;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.ttl{font-family:var(--display);font-size:2rem;line-height:1.15}
+.idiom{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.idiom b{font-family:var(--display);font-weight:400;font-size:1.25rem;color:var(--crayon)}
+.idiom span{font-family:var(--latin);font-weight:700;font-size:.85rem;color:var(--muted)}
+.soon{border:3px dashed var(--line);border-radius:14px;display:flex;align-items:center;justify-content:center;min-height:160px;font-family:var(--display);font-size:1.6rem;color:var(--muted);text-align:center;padding:16px}
+@media (prefers-reduced-motion:reduce){.ep{transition:none}.ep:hover{transform:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="faces"><img src="face-orca.jpg" alt="Xiao Zhen the orca"><img src="face-penguin.jpg" alt="Xiao Lin the penguin"><img src="face-cat.jpg" alt="Little Lazy Cat"></div>
+    <h1>小真和朋友们</h1>
+    <p class="sub">Funny Chinese stories you can tap to read</p>
+  </header>
+  <main class="shelf">
+    <a class="ep" href="ep1/">
+      <img src="ep1.jpg" alt="">
+      <div class="info"><div class="num">Episode 1</div><div class="ttl">小真的秘密</div><div class="idiom"><b>专心致志</b><span>zhuān xīn zhì zhì · full focus</span></div></div>
+    </a>
+    <a class="ep" href="ep2/">
+      <img src="ep2.jpg" alt="">
+      <div class="info"><div class="num">Episode 2</div><div class="ttl">七上八下</div><div class="idiom"><b>七上八下</b><span>qī shàng bā xià · very nervous</span></div></div>
+    </a>
+    <div class="soon">第三集<br>快来了……</div>
+  </main>
+</div>
+
+</body>
+</html>
