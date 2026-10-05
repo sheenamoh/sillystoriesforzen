@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="google" content="notranslate">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>七上八下</title>
+<title>一模一样</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -84,6 +84,7 @@ figure img{display:block;width:100%;height:auto}
 .vote button:hover img{transform:scale(1.06) rotate(-3deg)}
 .vote button.picked{border-color:var(--sun);background:var(--sea-soft)}
 .vote button.dim{opacity:.4}
+.pick2{grid-template-columns:repeat(2,minmax(0,1fr));max-width:340px}
 .words3 button{border:3px solid var(--ink);background:var(--paper);font-size:clamp(1.3rem,6vw,1.7rem);padding:12px 4px;min-height:72px;justify-content:center}
 .words3 .w{cursor:inherit}
 .navrow{align-self:stretch;display:flex;gap:8px;flex-wrap:wrap}
@@ -167,10 +168,10 @@ body.show-en .story{gap:2px}
 </div>
 <div class="wrap">
   <header>
-    <nav class="navrow"><a class="back" href="../">← All episodes</a><a class="back" href="../ep1/">Episode 1</a></nav>
-    <div class="ep">Episode 2</div>
-    <h1>七上八下</h1>
-    <div class="idiom"><span data-line="今天的|成语" data-en="Today's idiom"></span><b data-line="七上八下" data-en="very nervous (your heart goes up and down)"></b></div>
+    <nav class="navrow"><a class="back" href="../">← All episodes</a><a class="back" href="../ep2/">Episode 2</a></nav>
+    <div class="ep">Episode 3</div>
+    <h1>一模一样</h1>
+    <div class="idiom"><span data-line="今天的|成语" data-en="Today's idiom"></span><b data-line="一模一样" data-en="exactly the same"></b></div>
     <div class="howto" aria-label="How to read">
       <div class="step"><span class="demo" data-line="跳"></span><span class="lbl">Tap a word</span></div>
       <span class="arrow" aria-hidden="true">→</span>
@@ -188,58 +189,56 @@ body.show-en .story{gap:2px}
   </section>
 
   <section class="panel">
-    <div class="story"><p data-line="比赛|开始|了|！" data-en="The competition began!"></p><p data-line="小林|第一个|跳|。" data-en="Xiao Lin jumped first."></p><p data-line="他|一下子|就|跳过|了|圈|！" data-en="In one go, he jumped through the hoop!"></p><p data-line="小懒猫|的|心|七上八下|。" data-en="Little Lazy Cat's heart went up and down. He was very nervous."></p></div>
+    <div class="story"><p data-line="小林|堆了|一个|雪人|。" data-en="Xiao Lin built a snowman."></p><p data-line="他|把|雪人|做得|跟|自己|一模一样|！" data-en="He made the snowman look exactly like himself!"></p></div>
     <figure>
-      <img src="sq1.jpg" alt="The penguin flies through the hoop while the cat sits at the start line, sweating and worried" width="900" height="900">
-      <button class="bub" data-who="cat" data-line="怎么办|？|我|跳得过|吗|？" data-en="What do I do? Can I jump through it?" data-show="怎么办？/我跳得过吗？" style="left:8%;top:27.5%;width:34%;height:14%;font-size:5.4cqw;line-height:1.25"></button><button class="sign" data-k="起点" style="left:3.3%;top:50.3%;width:14.7%;height:3.8%;font-size:4cqw;">起点</button><button class="sign" data-k="出发" style="left:3.2%;top:92.6%;width:13.6%;height:5.4%;font-size:5.4cqw;">出发</button>
+      <img src="sq1.jpg" alt="The penguin stands proudly next to a snowman that looks just like him, while the cat draws a fish in the snow" width="900" height="900">
+      <button class="bub" data-who="penguin" data-line="像|我|吗|？|像|我|吗|？" data-en="Does it look like me? Does it look like me?" data-show="像我吗？/像我吗？" style="left:68.5%;top:28.6%;width:22.8%;height:9.1%;font-size:3.5cqw;line-height:1.25"></button>
     </figure>
   </section>
   <section class="panel">
-    <div class="story"><p data-line="轮到|小懒猫|了|。" data-en="It was Little Lazy Cat's turn."></p><p data-line="他|的|心|还是|七上八下|，" data-en="His heart was still going up and down,"></p><p data-line="可是|他|对|自己|说|……" data-en="but he said to himself…"></p></div>
+    <div class="story"><p data-line="小懒猫|画完了|鱼|，|想|玩|了|。" data-en="Little Lazy Cat finished drawing his fish and wanted to play."></p><p data-line="小林|正在|给|雪人|戴|帽子|和|围巾|，" data-en="Xiao Lin was putting a hat and scarf on the snowman,"></p><p data-line="小懒猫|就|向|他|扔|雪球|！" data-en="so Little Lazy Cat threw snowballs at him!"></p></div>
     <figure>
-      <img src="sq2.jpg" alt="The cat walks to the start line with a determined face" width="900" height="900">
-      <button class="sign" data-k="起点" style="left:3.3%;top:50.3%;width:7.4%;height:3.8%;font-size:2.9cqw;">起点</button><button class="sign" data-k="出发" style="left:3.2%;top:92.6%;width:13.6%;height:5.4%;font-size:5.4cqw;">出发</button>
-    <button class="bub" data-who="cat" data-line="我|可以的|！|我|要|专心|！" data-en="I can do this! I just need to focus!" data-show="我可以的！/我要专心！" style="left:32.4%;top:23.7%;width:33.8%;height:12.8%;font-size:5.6cqw;line-height:1.25"></button>
+      <img src="sq2.jpg" alt="The cat grins and throws a snowball while the penguin puts a scarf on the snowman" width="900" height="900">
+      <button class="bub" data-who="cat" data-line="嘿嘿嘿|……" data-en="Hehehe…" data-show="嘿嘿嘿……" style="left:7.9%;top:31.1%;width:20.4%;height:8.7%;font-size:3.9cqw;line-height:1.25"></button>
     </figure>
   </section>
   <section class="panel">
-    <div class="story"><p data-line="小懒猫|用力|一跳|……" data-en="Little Lazy Cat jumped with all his might…"></p><p data-line="扑通|！" data-en="Splash!"></p><p data-line="他|掉进|水里|了|！" data-en="He fell into the water!"></p><p data-line="小真|和|小林|都|吓了一跳|。" data-en="Xiao Zhen and Xiao Lin got a big fright."></p></div>
+    <div class="story"><p data-line="小林|和|小懒猫|打起了|雪仗|。" data-en="Xiao Lin and Little Lazy Cat started a snowball fight."></p><p data-line="这时|，|小真|刚好|经过|。" data-en="Just then, Xiao Zhen happened to pass by."></p></div>
     <figure>
-      <img src="sq3.jpg" alt="The cat has fallen into the sea, clinging to the hoop, while the orca and penguin look shocked" width="900" height="900">
+      <img src="sq3.jpg" alt="The orca greets the snowman while the cat and penguin throw snowballs in the background" width="900" height="900">
+      <button class="bub" data-who="orca" data-line="嗨|，|小林|！" data-en="Hi, Xiao Lin!" style="left:29.9%;top:35.4%;width:20.2%;height:8.5%;font-size:4.4cqw;line-height:1.25"></button>
+    </figure>
+  </section>
+  <section class="panel">
+    <div class="story"><p data-line="小真|对着|雪人|，" data-en="Xiao Zhen faced the snowman"></p><p data-line="兴奋地|说个不停|。" data-en="and talked and talked excitedly."></p></div>
+    <figure>
+      <img src="sq4.jpg" alt="The orca chats excitedly to the snowman" width="900" height="900">
+      <button class="bub" data-who="orca" data-line="我|跟|你|说|，|今天|发生了|一件|很|奇怪|的|事|！" data-en="Let me tell you, something very strange happened today!" data-show="我跟你说，/今天发生了一件/很奇怪的事！" style="left:44.2%;top:8.0%;width:43.3%;height:15.8%;font-size:4.5cqw;line-height:1.25"></button><button class="bub" data-who="orca" data-line="说出来|你|都|不信|！" data-en="You won't believe it when I tell you!" data-show="说出来/你都不信！" style="left:71.8%;top:26.5%;width:21.9%;height:11.6%;font-size:4.3cqw;line-height:1.25"></button>
+    </figure>
+  </section>
+  <section class="panel">
+    <div class="story"><p data-line="小真|没|注意到|，" data-en="Xiao Zhen didn't notice"></p><p data-line="小林|和|小懒猫|走|回来|了|。" data-en="that Xiao Lin and Little Lazy Cat had come back."></p><p data-line="他们|看见|小真|在|跟|雪人|说话|，" data-en="They saw Xiao Zhen talking to the snowman,"></p><p data-line="都|看傻了|！" data-en="and they just stared!"></p></div>
+    <figure>
+      <img src="sq5.jpg" alt="The orca keeps chatting to the snowman while the penguin and cat stare in confusion" width="900" height="900">
+      <button class="bub" data-who="orca" data-line="叽里呱啦|……|叽里呱啦|……" data-en="Blah blah blah… blah blah blah…" data-show="叽里呱啦……/叽里呱啦……" style="left:38.9%;top:8.8%;width:53.7%;height:15.0%;font-size:5.2cqw;line-height:1.25"></button><button class="bub" data-who="orca" data-line="你|跟|雪人|一模一样|……" data-en="You look exactly like the snowman…" data-show="你跟雪人/一模一样……" style="left:59.3%;top:26.3%;width:36.0%;height:9.7%;font-size:4.1cqw;line-height:1.25"></button>
+    </figure>
+  </section>
+  <section class="panel">
+    <div class="story"><p data-line="小真|左|看看|雪人|，|右|看看|小林|。" data-en="Xiao Zhen looked left at the snowman, then right at Xiao Lin."></p><p data-line="咦|？|怎么|有|两个|小林|？" data-en="Huh? Why are there two Xiao Lins?"></p><p data-line="怎么|会|一模一样|呢|？" data-en="How can they look exactly the same?"></p><p data-line="小林|和|小懒猫|笑得|在|地上|打滚|！" data-en="Xiao Lin and Little Lazy Cat laughed so hard they rolled on the ground!"></p></div>
+    <figure>
+      <img src="sq6.jpg" alt="The orca looks confused while the cat and penguin roll on the ground laughing" width="900" height="900">
       
-    </figure>
-  </section>
-  <section class="panel">
-    <div class="story"><p data-line="小懒猫|在|水里|游啊游|。" data-en="Little Lazy Cat swam and swam."></p><p data-line="小真|和|小林|大声|喊|：" data-en="Xiao Zhen and Xiao Lin shouted:"></p><p data-line="“|加油|！|加油|！|”" data-en="“Go! Go!”"></p></div>
-    <figure>
-      <img src="sq4.jpg" alt="The cat swims towards the ice while the orca and penguin cheer him on" width="900" height="900">
-      <button class="bub" data-who="cat" data-line="我|可以的|！|我|可以的|！" data-en="I can do it! I can do it!" data-show="我可以的！/我可以的！" style="left:10.5%;top:38.5%;width:23%;height:11%;font-size:4.2cqw;line-height:1.25"></button><button class="bub" data-who="orca" data-line="加油|！|你|可以的|！" data-en="Go! You can do it!" data-show="加油！/你可以的！" style="left:42%;top:28.5%;width:24%;height:12%;font-size:4.8cqw;line-height:1.25"></button><button class="bub" data-who="penguin" data-line="快到了|……|再|游|一下|！" data-en="Almost there… swim a little more!" data-show="快到了……/再游一下！" style="left:74%;top:28%;width:22.5%;height:13%;font-size:4cqw;line-height:1.25"></button>
-    </figure>
-  </section>
-  <section class="panel">
-    <div class="story"><p data-line="太阳|下山了|。" data-en="The sun went down."></p><p data-line="大家|一起|烤鱼|吃|，" data-en="Everyone grilled fish together,"></p><p data-line="开心地|说着|今天的|事|。" data-en="and happily talked about everything that happened today."></p></div>
-    <figure>
-      <img src="sq5.jpg" alt="At sunset the three friends sit around a campfire grilling fish" width="900" height="900">
-      <button class="bub" data-who="cat" data-line="我|真的|游过来了|！" data-en="I really made it across!" data-show="我真的/游过来了！" style="left:10.5%;top:38.5%;width:23%;height:11%;font-size:4.1cqw;line-height:1.25"></button><button class="bub" data-who="orca" data-line="刚才|你|吓死|我|啦|！" data-en="You scared me to death just now!" data-show="刚才/你吓死我啦！" style="left:39.5%;top:28.5%;width:28%;height:11%;font-size:4.6cqw;line-height:1.25"></button><button class="bub" data-who="penguin" data-line="猫猫|，|你|太棒了|！" data-en="Kitty, you're awesome!" data-show="猫猫，/你太棒了！" style="left:73.5%;top:28.5%;width:23.5%;height:13%;font-size:4.6cqw;line-height:1.25"></button>
-    </figure>
-  </section>
-  <section class="panel">
-    <div class="story"><p data-line="那天晚上|，|小懒猫|睡着了|。" data-en="That night, Little Lazy Cat fell asleep."></p><p data-line="他|梦见|自己|跳过|了|圈|。" data-en="He dreamed that he jumped through the hoop."></p></div>
-    <figure>
-      <img src="sq6.jpg" alt="The cat sleeps happily in bed, dreaming of jumping through the hoop" width="900" height="900">
-      <button class="bub" data-who="cat" data-line="今天|真|好玩|！|明天|我|再|试一试|！" data-en="Today was so much fun! Tomorrow I'll try again!" data-show="今天真好玩！/明天我再/试一试！" style="left:72.2%;top:39.5%;width:21.5%;height:13%;font-size:3.5cqw;line-height:1.25"></button>
     </figure>
   </section>
 
   <section class="vote" aria-label="Your turn">
-    <h2 data-line="你|什么时候|会|七上八下|？" data-en="When does your heart go seven-up-eight-down?"></h2>
-    <div class="choices words3">
-      <button id="v-exam" data-pick="exam"><span data-line="考试" data-en="exams"></span></button>
-      <button id="v-race" data-pick="race"><span data-line="比赛" data-en="competitions"></span></button>
-      <button id="v-doc" data-pick="doc"><span data-line="看医生" data-en="seeing the doctor"></span></button>
+    <h2 data-line="哪一个|是|真的|小林|？" data-en="Which one is the real Xiao Lin?"></h2>
+    <div class="choices pick2">
+      <button id="v-snow" data-pick="snow"><img src="snowman.jpg" alt="The snowman"></button>
+      <button id="v-ling" data-pick="ling"><img src="face-penguin.jpg" alt="The penguin"></button>
     </div>
     <div class="result" id="result" aria-live="polite"></div>
-    <a class="nextlink" href="../ep3/"><span data-line="下一集|……" data-en="Next episode…"></span><small>Episode 3: 一模一样 →</small></a>
+    <a class="nextlink" href="../"><span data-line="下一集|……" data-en="Next episode…"></span><small>All episodes →</small></a>
   </section>
 
   <details class="mum">
@@ -262,7 +261,7 @@ const DICT={
 "小真":["xiǎo zhēn","Xiao Zhen — the orca's name"],"小林":["xiǎo lín","Xiao Lin — the penguin's name"],"名叫":["míng jiào","is called, named"],"小懒猫":["xiǎo lǎn māo","Little Lazy Cat — the cat's name"],
 "是":["shì","is"],"一只":["yì zhī","a / one (for animals)"],"虎鲸":["hǔ jīng","orca (killer whale)"],"企鹅":["qǐ é","penguin"],"猫":["māo","cat"],
 "专心致志":["zhuān xīn zhì zhì","give your whole mind to something (idiom)"],
-"在":["zài","at, in"],"冰上":["bīng shàng","on the ice"],"玩":["wán","play"],"问":["wèn","ask"],"请":["qǐng","please"],"加油":["jiā yóu","go! go! (cheering)"],"记住了":["jì zhù le","remembered (got it!)"],"兴奋":["xīng fèn","excited"],"紧张":["jǐn zhāng","nervous"],"出发":["chū fā","start, set off"],"今天的":["jīn tiān de","today's"],"成语":["chéng yǔ","idiom (4-character saying)"],"开始":["kāi shǐ", "begin, start"],"第一个":["dì yī gè", "the first one"],"一下子":["yí xià zi", "in one go, suddenly"],"就":["jiù", "right away"],"跳过":["tiào guò", "jump through / over"],"圈":["quān", "hoop, ring"],"心":["xīn", "heart"],"七上八下":["qī shàng bā xià", "very nervous (idiom: heart goes 7 up, 8 down)"],"轮到":["lún dào", "it's (someone's) turn"],"还是":["hái shi", "still"],"可是":["kě shì", "but"],"对":["duì", "to"],"自己":["zì jǐ", "oneself, himself"],"说":["shuō", "say"],"不怕":["bú pà", "not scared"],"怎么办":["zěn me bàn", "what do I do?"],"一跳":["yí tiào", "a jump"],"扑通":["pū tōng", "splash! (sound)"],"掉进":["diào jìn", "fall into"],"水里":["shuǐ lǐ", "in the water"],"吓了一跳":["xià le yí tiào", "got a big fright"],"游啊游":["yóu a yóu", "swam and swam"],"大声":["dà shēng", "loudly"],"喊":["hǎn", "shout"],"快到了":["kuài dào le", "almost there"],"游":["yóu", "swim"],"一下":["yí xià", "a little bit"],"可以的":["kě yǐ de", "can do it"],"游得好":["yóu de hǎo", "swim well"],"快":["kuài", "quickly"],"上来":["shàng lái", "come up"],"太阳":["tài yáng", "the sun"],"下山了":["xià shān le", "went down (set)"],"一起":["yì qǐ", "together"],"吃":["chī", "eat"],"一点也不":["yì diǎn yě bù", "not at all"],"香":["xiāng", "smells good"],"勇敢":["yǒng gǎn", "brave"],"明天":["míng tiān", "tomorrow"],"练习":["liàn xí", "practise"],"晚上":["wǎn shang", "evening, night"],"睡觉了":["shuì jiào le", "went to sleep"],"梦见":["mèng jiàn", "dreamed of"],"今天":["jīn tiān", "today"],"好玩":["hǎo wán", "fun"],"试一试":["shì yi shì", "give it a try"],"什么时候":["shén me shí hou", "when"],"考试":["kǎo shì", "exam, test"],"看医生":["kàn yī shēng", "see the doctor"],"也":["yě", "also, too"],"别":["bié", "don't"],"怕":["pà", "be scared"],"能行":["néng xíng", "can make it, can do it"],"专心":["zhuān xīn", "focus, pay full attention"],"开心地":["kāi xīn de", "happily"],"说着":["shuō zhe", "talking about"],"事":["shì", "things, what happened"],"真的":["zhēn de", "really"],"游过来了":["yóu guò lái le", "swam over (made it across)"],"刚才":["gāng cái", "just now"],"真":["zhēn", "really, so"],"吓死":["xià sǐ", "scare to death"],"啦":["la", "(friendly sound at the end)"],"猫猫":["māo mao", "kitty (a cute way to say cat)"],"太棒了":["tài bàng le", "awesome, great job"],"那天晚上":["nà tiān wǎn shang", "that night"],"睡着了":["shuì zháo le", "fell asleep"],"跳得过":["tiào de guò","can jump over / through"],"有一天":["yǒu yì tiān","one day"],"和":["hé","and"],"看见":["kàn jiàn","saw"],"好朋友":["hǎo péng you","good friend"],"跳出":["tiào chū","jump out of"],"水面":["shuǐ miàn","the water's surface"],
+"在":["zài","at, in"],"冰上":["bīng shàng","on the ice"],"玩":["wán","play"],"问":["wèn","ask"],"请":["qǐng","please"],"加油":["jiā yóu","go! go! (cheering)"],"记住了":["jì zhù le","remembered (got it!)"],"兴奋":["xīng fèn","excited"],"紧张":["jǐn zhāng","nervous"],"出发":["chū fā","start, set off"],"今天的":["jīn tiān de","today's"],"成语":["chéng yǔ","idiom (4-character saying)"],"开始":["kāi shǐ", "begin, start"],"第一个":["dì yī gè", "the first one"],"一下子":["yí xià zi", "in one go, suddenly"],"就":["jiù", "right away"],"跳过":["tiào guò", "jump through / over"],"圈":["quān", "hoop, ring"],"心":["xīn", "heart"],"七上八下":["qī shàng bā xià", "very nervous (idiom: heart goes 7 up, 8 down)"],"轮到":["lún dào", "it's (someone's) turn"],"还是":["hái shi", "still"],"可是":["kě shì", "but"],"对":["duì", "to"],"自己":["zì jǐ", "oneself, himself"],"说":["shuō", "say"],"不怕":["bú pà", "not scared"],"怎么办":["zěn me bàn", "what do I do?"],"一跳":["yí tiào", "a jump"],"扑通":["pū tōng", "splash! (sound)"],"掉进":["diào jìn", "fall into"],"水里":["shuǐ lǐ", "in the water"],"吓了一跳":["xià le yí tiào", "got a big fright"],"游啊游":["yóu a yóu", "swam and swam"],"大声":["dà shēng", "loudly"],"喊":["hǎn", "shout"],"快到了":["kuài dào le", "almost there"],"游":["yóu", "swim"],"一下":["yí xià", "a little bit"],"可以的":["kě yǐ de", "can do it"],"游得好":["yóu de hǎo", "swim well"],"快":["kuài", "quickly"],"上来":["shàng lái", "come up"],"太阳":["tài yáng", "the sun"],"下山了":["xià shān le", "went down (set)"],"一起":["yì qǐ", "together"],"吃":["chī", "eat"],"一点也不":["yì diǎn yě bù", "not at all"],"香":["xiāng", "smells good"],"勇敢":["yǒng gǎn", "brave"],"明天":["míng tiān", "tomorrow"],"练习":["liàn xí", "practise"],"晚上":["wǎn shang", "evening, night"],"睡觉了":["shuì jiào le", "went to sleep"],"梦见":["mèng jiàn", "dreamed of"],"今天":["jīn tiān", "today"],"好玩":["hǎo wán", "fun"],"试一试":["shì yi shì", "give it a try"],"什么时候":["shén me shí hou", "when"],"考试":["kǎo shì", "exam, test"],"看医生":["kàn yī shēng", "see the doctor"],"也":["yě", "also, too"],"别":["bié", "don't"],"怕":["pà", "be scared"],"能行":["néng xíng", "can make it, can do it"],"专心":["zhuān xīn", "focus, pay full attention"],"开心地":["kāi xīn de", "happily"],"说着":["shuō zhe", "talking about"],"事":["shì", "things, what happened"],"真的":["zhēn de", "really"],"游过来了":["yóu guò lái le", "swam over (made it across)"],"刚才":["gāng cái", "just now"],"真":["zhēn", "really, so"],"吓死":["xià sǐ", "scare to death"],"啦":["la", "(friendly sound at the end)"],"猫猫":["māo mao", "kitty (a cute way to say cat)"],"太棒了":["tài bàng le", "awesome, great job"],"那天晚上":["nà tiān wǎn shang", "that night"],"睡着了":["shuì zháo le", "fell asleep"],"跳得过":["tiào de guò","can jump over / through"],"堆了":["duī le", "built (piled up)"],"雪人":["xuě rén", "snowman"],"做得":["zuò de", "made it (so that…)"],"跟":["gēn", "to, with"],"一模一样":["yì mú yí yàng", "exactly the same (idiom)"],"像":["xiàng", "look like"],"画完了":["huà wán le", "finished drawing"],"鱼":["yú", "fish"],"想":["xiǎng", "want to"],"正在":["zhèng zài", "was in the middle of"],"给":["gěi", "for, to"],"戴":["dài", "put on (a hat)"],"帽子":["mào zi", "hat"],"围巾":["wéi jīn", "scarf"],"向":["xiàng", "towards"],"扔":["rēng", "throw"],"雪球":["xuě qiú", "snowball"],"嘿嘿嘿":["hēi hēi hēi", "hehehe (sneaky laugh)"],"打起了":["dǎ qǐ le", "started (a fight)"],"雪仗":["xuě zhàng", "snowball fight"],"这时":["zhè shí", "just then"],"刚好":["gāng hǎo", "happened to"],"经过":["jīng guò", "pass by"],"嗨":["hāi", "hi"],"对着":["duì zhe", "facing"],"兴奋地":["xīng fèn de", "excitedly"],"说个不停":["shuō ge bù tíng", "talk non-stop"],"发生了":["fā shēng le", "happened"],"一件":["yí jiàn", "one (thing)"],"奇怪":["qí guài", "strange"],"说出来":["shuō chū lái", "when (I) say it"],"不信":["bú xìn", "not believe"],"没":["méi", "didn't"],"注意到":["zhù yì dào", "notice"],"走":["zǒu", "walk"],"回来":["huí lái", "come back"],"说话":["shuō huà", "talk"],"看傻了":["kàn shǎ le", "stared in shock"],"叽里呱啦":["jī li guā lā", "blah blah blah (chattering)"],"左":["zuǒ", "left"],"右":["yòu", "right"],"看看":["kàn kan", "take a look"],"咦":["yí", "huh?"],"两个":["liǎng gè", "two"],"笑得":["xiào de", "laughed so hard that…"],"地上":["dì shang", "on the ground"],"打滚":["dǎ gǔn", "roll around"],"哪一个":["nǎ yí gè", "which one"],"对了":["duì le", "that's right"],"比":["bǐ", "than"],"聪明":["cōng ming", "clever"],"那":["nà", "that"],"哈哈":["hā ha", "haha"],"怎么":["zěn me","how come, why"],"有":["yǒu","there are, have"],"有一天":["yǒu yì tiān","one day"],"和":["hé","and"],"看见":["kàn jiàn","saw"],"好朋友":["hǎo péng you","good friend"],"跳出":["tiào chū","jump out of"],"水面":["shuǐ miàn","the water's surface"],
 "跳得":["tiào de","jumps… (how well)"],"又":["yòu","both… and…"],"高":["gāo","high, tall"],"远":["yuǎn","far"],
 "哇":["wà","wow"],"好":["hǎo","so, very"],"啊":["a","(sound of excitement)"],"太":["tài","so, too"],"厉害":["lì hai","amazing, awesome"],"了":["le","(finished / !)"],
 "你":["nǐ","you"],"可以":["kě yǐ","can"],"教":["jiāo","teach"],"我们":["wǒ men","us, we"],"吗":["ma","(question word)"],
@@ -279,8 +278,8 @@ const DICT={
 const WHO={orca:["小真","face-orca.jpg"],penguin:["小林","face-penguin.jpg"],cat:["小懒猫","face-cat.jpg"]};
 
 let seen={};
-try{seen=JSON.parse(localStorage.getItem('story2-seen')||'{}')}catch(e){seen={}}
-function saveSeen(){try{localStorage.setItem('story2-seen',JSON.stringify(seen))}catch(e){}}
+try{seen=JSON.parse(localStorage.getItem('story3-seen')||'{}')}catch(e){seen={}}
+function saveSeen(){try{localStorage.setItem('story3-seen',JSON.stringify(seen))}catch(e){}}
 
 function words(line){
   return line.split('|').map(t=>DICT[t]
@@ -348,23 +347,22 @@ document.getElementById('lsClose').addEventListener('click',()=>{ls.hidden=true;
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){ls.hidden=true;hideTip()}});
 
 /* vote */
-const R='小懒猫|也|会|！|别|怕|，|加油|！',RE="Little Lazy Cat feels that way too! Don't be scared. You can do it!";
-const LINES={exam:R,race:R,doc:R};
-const LINES_EN={exam:RE,race:RE,doc:RE};
+const LINES={ling:'对了|！|你|比|小真|聪明|！',snow:'哈哈|，|那|是|雪人|！'};
+const LINES_EN={ling:'Correct! You\'re smarter than Xiao Zhen!',snow:'Haha, that\'s the snowman!'};
 function showVote(p){
   document.querySelectorAll('.choices button').forEach(x=>{x.classList.toggle('picked',x.dataset.pick===p);x.classList.toggle('dim',x.dataset.pick!==p)});
   document.getElementById('result').innerHTML=withEn(LINES[p],LINES_EN[p]);
 }
 document.querySelectorAll('.choices button').forEach(b=>b.addEventListener('click',()=>{
   const p=b.dataset.pick;showVote(p);
-  try{localStorage.setItem('story2-vote',p)}catch(e){}
+  try{localStorage.setItem('story3-vote',p)}catch(e){}
 }));
-try{const v=localStorage.getItem('story2-vote');if(v&&LINES[v])showVote(v)}catch(e){}
+try{const v=localStorage.getItem('story3-vote');if(v&&LINES[v])showVote(v)}catch(e){}
 
 /* toggles */
-function setTog(id,cls,on){document.body.classList.toggle(cls,on);document.getElementById(id).setAttribute('aria-pressed',on?'true':'false');try{localStorage.setItem('story2-'+cls,on?'1':'0')}catch(e){}}
+function setTog(id,cls,on){document.body.classList.toggle(cls,on);document.getElementById(id).setAttribute('aria-pressed',on?'true':'false');try{localStorage.setItem('story3-'+cls,on?'1':'0')}catch(e){}}
 [['togPy','show-py'],['togEn','show-en']].forEach(([id,cls])=>{
-  let on=false;try{on=localStorage.getItem('story2-'+cls)==='1'}catch(e){}
+  let on=false;try{on=localStorage.getItem('story3-'+cls)==='1'}catch(e){}
   setTog(id,cls,on);
   document.getElementById(id).addEventListener('click',()=>{hideTip();setTog(id,cls,!document.body.classList.contains(cls))});
 });
