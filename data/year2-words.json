@@ -1,0 +1,4375 @@
+{
+ "source": "华文 一年级 课本 — 认读生字与习写生字表 (Year 2: 第十一 to 第二十二单元)",
+ "lessons": [
+  {
+   "unit": "十一",
+   "lesson": "一",
+   "tag": "十一-一",
+   "read": [
+    "同",
+    "面",
+    "拉",
+    "师",
+    "您",
+    "助",
+    "谢",
+    "握",
+    "人",
+    "礼",
+    "貌",
+    "气"
+   ],
+   "write": [
+    "同",
+    "面",
+    "师",
+    "助",
+    "点",
+    "人"
+   ]
+  },
+  {
+   "unit": "十一",
+   "lesson": "二",
+   "tag": "十一-二",
+   "read": [
+    "买",
+    "汽",
+    "车",
+    "问",
+    "店",
+    "存",
+    "钱",
+    "能",
+    "算",
+    "半",
+    "年",
+    "十",
+    "再",
+    "辆",
+    "架",
+    "吧"
+   ],
+   "write": [
+    "车",
+    "存",
+    "半",
+    "年",
+    "十",
+    "再"
+   ]
+  },
+  {
+   "unit": "十二",
+   "lesson": "一",
+   "tag": "十二-一",
+   "read": [
+    "几",
+    "海",
+    "马",
+    "忙",
+    "孩",
+    "千",
+    "什",
+    "呢",
+    "翅",
+    "膀",
+    "左",
+    "右",
+    "父",
+    "节"
+   ],
+   "write": [
+    "马",
+    "孩",
+    "左",
+    "右",
+    "父",
+    "节"
+   ]
+  },
+  {
+   "unit": "十二",
+   "lesson": "二",
+   "tag": "十二-二",
+   "read": [
+    "蛙",
+    "想",
+    "捉",
+    "荷",
+    "别",
+    "真",
+    "没",
+    "久",
+    "它",
+    "运",
+    "第",
+    "名"
+   ],
+   "write": [
+    "到",
+    "几",
+    "别",
+    "久",
+    "得",
+    "名"
+   ]
+  },
+  {
+   "unit": "识字四",
+   "lesson": "",
+   "tag": "识字四",
+   "read": [
+    "养",
+    "洁",
+    "羽",
+    "毛",
+    "肚",
+    "饿",
+    "找",
+    "食",
+    "物",
+    "饱",
+    "坏"
+   ],
+   "write": [
+    "养",
+    "羽",
+    "毛",
+    "红",
+    "找",
+    "物"
+   ]
+  },
+  {
+   "unit": "十三",
+   "lesson": "一",
+   "tag": "十三-一",
+   "read": [
+    "屋",
+    "娃",
+    "影",
+    "灯",
+    "光",
+    "比",
+    "东",
+    "墙",
+    "兔",
+    "西",
+    "为",
+    "拍"
+   ],
+   "write": [
+    "晚",
+    "光",
+    "比",
+    "东",
+    "西",
+    "为"
+   ]
+  },
+  {
+   "unit": "十三",
+   "lesson": "二",
+   "tag": "十三-二",
+   "read": [
+    "她",
+    "伞",
+    "怎",
+    "顶",
+    "盒",
+    "遮",
+    "净"
+   ],
+   "write": [
+    "出",
+    "么",
+    "着",
+    "们",
+    "干",
+    "净"
+   ]
+  },
+  {
+   "unit": "十四",
+   "lesson": "一",
+   "tag": "十四-一",
+   "read": [
+    "鞋",
+    "穿",
+    "耍",
+    "国",
+    "成",
+    "力",
+    "士"
+   ],
+   "write": [
+    "跳",
+    "和",
+    "玩",
+    "成",
+    "力",
+    "士"
+   ]
+  },
+  {
+   "unit": "十四",
+   "lesson": "二",
+   "tag": "十四-二",
+   "read": [
+    "清",
+    "蝴",
+    "蝶",
+    "窗",
+    "前",
+    "弟",
+    "喷",
+    "报",
+    "应",
+    "该",
+    "分",
+    "童",
+    "话",
+    "认"
+   ],
+   "write": [
+    "前",
+    "花",
+    "弟",
+    "分",
+    "看",
+    "话"
+   ]
+  },
+  {
+   "unit": "十五",
+   "lesson": "一",
+   "tag": "十五-一",
+   "read": [
+    "球",
+    "摇",
+    "圆",
+    "高",
+    "远",
+    "生",
+    "答",
+    "猜",
+    "新",
+    "当",
+    "脸"
+   ],
+   "write": [
+    "球",
+    "高",
+    "生",
+    "朋",
+    "友",
+    "脸"
+   ]
+  },
+  {
+   "unit": "十五",
+   "lesson": "二",
+   "tag": "十五-二",
+   "read": [
+    "鹿",
+    "病",
+    "角",
+    "变",
+    "他",
+    "窝",
+    "被",
+    "打",
+    "站",
+    "朵"
+   ],
+   "write": [
+    "变",
+    "很",
+    "窝",
+    "朵",
+    "美",
+    "丽"
+   ]
+  },
+  {
+   "unit": "十六",
+   "lesson": "一",
+   "tag": "十六-一",
+   "read": [
+    "厕",
+    "所",
+    "洗",
+    "澡",
+    "电",
+    "哭",
+    "肯",
+    "床",
+    "外",
+    "狗",
+    "指",
+    "道",
+    "升"
+   ],
+   "write": [
+    "电",
+    "外",
+    "狗",
+    "道",
+    "升"
+   ]
+  },
+  {
+   "unit": "十六",
+   "lesson": "二",
+   "tag": "十六-二",
+   "read": [
+    "候",
+    "火",
+    "钟",
+    "喊",
+    "叫",
+    "踢",
+    "怪",
+    "过",
+    "关"
+   ],
+   "write": [
+    "火",
+    "可",
+    "笑",
+    "最",
+    "关",
+    "做"
+   ]
+  },
+  {
+   "unit": "识字五",
+   "lesson": "",
+   "tag": "识字五",
+   "read": [
+    "加",
+    "包",
+    "抱",
+    "宝",
+    "足",
+    "赛",
+    "泡",
+    "给",
+    "杯",
+    "茶",
+    "奶"
+   ],
+   "write": [
+    "包",
+    "足",
+    "水",
+    "食",
+    "奶",
+    "叫"
+   ]
+  },
+  {
+   "unit": "十七",
+   "lesson": "一",
+   "tag": "十七-一",
+   "read": [
+    "云",
+    "住",
+    "哪",
+    "追",
+    "赶",
+    "方",
+    "法",
+    "颜"
+   ],
+   "write": [
+    "云",
+    "什",
+    "都",
+    "翅",
+    "追",
+    "方"
+   ]
+  },
+  {
+   "unit": "十七",
+   "lesson": "二",
+   "tag": "十七-二",
+   "read": [
+    "兄",
+    "题",
+    "因",
+    "休",
+    "息",
+    "等",
+    "请",
+    "呼"
+   ],
+   "write": [
+    "兄",
+    "因",
+    "海",
+    "顺",
+    "他",
+    "呼"
+   ]
+  },
+  {
+   "unit": "十八",
+   "lesson": "一",
+   "tag": "十八-一",
+   "read": [
+    "九",
+    "八",
+    "日",
+    "旗",
+    "次",
+    "庆",
+    "今",
+    "举",
+    "共",
+    "视",
+    "目",
+    "表",
+    "男",
+    "女",
+    "舞"
+   ],
+   "write": [
+    "九",
+    "八",
+    "日",
+    "今",
+    "目",
+    "男",
+    "女"
+   ]
+  },
+  {
+   "unit": "十八",
+   "lesson": "二",
+   "tag": "十八-二",
+   "read": [
+    "农",
+    "田",
+    "稻",
+    "米",
+    "果",
+    "护",
+    "土"
+   ],
+   "write": [
+    "农",
+    "田",
+    "米",
+    "果",
+    "土",
+    "共"
+   ]
+  },
+  {
+   "unit": "十九",
+   "lesson": "一",
+   "tag": "十九-一",
+   "read": [
+    "桥",
+    "便",
+    "平",
+    "背",
+    "各",
+    "种",
+    "害",
+    "让",
+    "热",
+    "彩",
+    "虹"
+   ],
+   "write": [
+    "那",
+    "桥",
+    "平",
+    "各",
+    "害",
+    "彩"
+   ]
+  },
+  {
+   "unit": "十九",
+   "lesson": "二",
+   "tag": "十九-二",
+   "read": [
+    "排",
+    "路",
+    "叔",
+    "阿",
+    "姨",
+    "班",
+    "直",
+    "立",
+    "送"
+   ],
+   "write": [
+    "星",
+    "灯",
+    "姨",
+    "立"
+   ]
+  },
+  {
+   "unit": "二十",
+   "lesson": "一",
+   "tag": "二十-一",
+   "read": [
+    "邻",
+    "伯",
+    "活",
+    "奇",
+    "自",
+    "己",
+    "期",
+    "浇",
+    "二",
+    "油",
+    "尺",
+    "已",
+    "眉",
+    "收",
+    "割"
+   ],
+   "write": [
+    "自",
+    "己",
+    "二",
+    "尺",
+    "已",
+    "眉",
+    "收"
+   ]
+  },
+  {
+   "unit": "二十",
+   "lesson": "二",
+   "tag": "二十-二",
+   "read": [
+    "鼻",
+    "象",
+    "耳",
+    "尾",
+    "巴",
+    "猴",
+    "牛",
+    "正",
+    "泥",
+    "谈",
+    "鸭",
+    "办",
+    "音",
+    "狮"
+   ],
+   "write": [
+    "动",
+    "鼻",
+    "象",
+    "牛",
+    "正",
+    "谈",
+    "音"
+   ]
+  },
+  {
+   "unit": "二十一",
+   "lesson": "一",
+   "tag": "二十一-一",
+   "read": [
+    "常",
+    "爷",
+    "告",
+    "诉",
+    "昨",
+    "鼠",
+    "嘴",
+    "难",
+    "容",
+    "易",
+    "吞"
+   ],
+   "write": [
+    "常",
+    "老",
+    "爷",
+    "办",
+    "易",
+    "吞",
+    "耳"
+   ]
+  },
+  {
+   "unit": "二十一",
+   "lesson": "二",
+   "tag": "二十一-二",
+   "read": [
+    "尖",
+    "肉",
+    "转",
+    "逃",
+    "条",
+    "蛇",
+    "死",
+    "咬"
+   ],
+   "write": [
+    "问",
+    "吃",
+    "肉",
+    "条",
+    "两",
+    "气"
+   ]
+  },
+  {
+   "unit": "二十二",
+   "lesson": "一",
+   "tag": "二十二-一",
+   "read": [
+    "鸡",
+    "啼",
+    "醒",
+    "骂",
+    "午",
+    "苹",
+    "擦",
+    "弄",
+    "痛",
+    "折",
+    "断",
+    "谁"
+   ],
+   "write": [
+    "没",
+    "午",
+    "采",
+    "弄",
+    "谁",
+    "巴"
+   ]
+  },
+  {
+   "unit": "二十二",
+   "lesson": "二",
+   "tag": "二十二-二",
+   "read": [
+    "百",
+    "齐",
+    "皮",
+    "垃",
+    "圾",
+    "破",
+    "拾",
+    "丢",
+    "桶",
+    "扫",
+    "院",
+    "周"
+   ],
+   "write": [
+    "百",
+    "齐",
+    "皮",
+    "张",
+    "等",
+    "扫",
+    "周"
+   ]
+  }
+ ],
+ "chars": [
+  {
+   "char": "同",
+   "pinyin": "tóng",
+   "en": "same, together",
+   "lesson": "十一-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "面",
+   "pinyin": "miàn",
+   "en": "face, side",
+   "lesson": "十一-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    1,
+    6,
+    7
+   ]
+  },
+  {
+   "char": "拉",
+   "pinyin": "lā",
+   "en": "pull",
+   "lesson": "十一-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "师",
+   "pinyin": "shī",
+   "en": "teacher",
+   "lesson": "十一-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    1
+   ]
+  },
+  {
+   "char": "您",
+   "pinyin": "nín",
+   "en": "you (polite)",
+   "lesson": "十一-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "助",
+   "pinyin": "zhù",
+   "en": "help",
+   "lesson": "十一-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "谢",
+   "pinyin": "xiè",
+   "en": "thank",
+   "lesson": "十一-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "握",
+   "pinyin": "wò",
+   "en": "hold, grip",
+   "lesson": "十一-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "人",
+   "pinyin": "rén",
+   "en": "person",
+   "lesson": "十一-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "char": "礼",
+   "pinyin": "lǐ",
+   "en": "gift, manners",
+   "lesson": "十一-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "貌",
+   "pinyin": "mào",
+   "en": "looks (礼貌 polite)",
+   "lesson": "十一-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "气",
+   "pinyin": "qì",
+   "en": "air, breath",
+   "lesson": "十一-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    5
+   ]
+  },
+  {
+   "char": "点",
+   "pinyin": "diǎn",
+   "en": "dot, bit",
+   "lesson": "十一-一",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    5,
+    6
+   ]
+  },
+  {
+   "char": "买",
+   "pinyin": "mǎi",
+   "en": "buy",
+   "lesson": "十一-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "汽",
+   "pinyin": "qì",
+   "en": "steam (汽车 car)",
+   "lesson": "十一-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "车",
+   "pinyin": "chē",
+   "en": "car, vehicle",
+   "lesson": "十一-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    6,
+    7
+   ]
+  },
+  {
+   "char": "问",
+   "pinyin": "wèn",
+   "en": "ask",
+   "lesson": "十一-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    1
+   ]
+  },
+  {
+   "char": "店",
+   "pinyin": "diàn",
+   "en": "shop",
+   "lesson": "十一-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "存",
+   "pinyin": "cún",
+   "en": "save, keep",
+   "lesson": "十一-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "钱",
+   "pinyin": "qián",
+   "en": "money",
+   "lesson": "十一-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "能",
+   "pinyin": "néng",
+   "en": "can, able",
+   "lesson": "十一-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    4,
+    5
+   ]
+  },
+  {
+   "char": "算",
+   "pinyin": "suàn",
+   "en": "count, calculate",
+   "lesson": "十一-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "半",
+   "pinyin": "bàn",
+   "en": "half",
+   "lesson": "十一-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "年",
+   "pinyin": "nián",
+   "en": "year",
+   "lesson": "十一-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "十",
+   "pinyin": "shí",
+   "en": "ten",
+   "lesson": "十一-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "再",
+   "pinyin": "zài",
+   "en": "again",
+   "lesson": "十一-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    1,
+    2,
+    4
+   ]
+  },
+  {
+   "char": "辆",
+   "pinyin": "liàng",
+   "en": "(for vehicles)",
+   "lesson": "十一-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    7
+   ]
+  },
+  {
+   "char": "架",
+   "pinyin": "jià",
+   "en": "shelf, frame",
+   "lesson": "十一-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "吧",
+   "pinyin": "ba",
+   "en": "(let's…)",
+   "lesson": "十一-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    4,
+    6
+   ]
+  },
+  {
+   "char": "几",
+   "pinyin": "jǐ",
+   "en": "how many, a few",
+   "lesson": "十二-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    7
+   ]
+  },
+  {
+   "char": "海",
+   "pinyin": "hǎi",
+   "en": "sea",
+   "lesson": "十二-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "char": "马",
+   "pinyin": "mǎ",
+   "en": "horse",
+   "lesson": "十二-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "char": "忙",
+   "pinyin": "máng",
+   "en": "busy",
+   "lesson": "十二-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    5
+   ]
+  },
+  {
+   "char": "孩",
+   "pinyin": "hái",
+   "en": "child",
+   "lesson": "十二-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "千",
+   "pinyin": "qiān",
+   "en": "thousand",
+   "lesson": "十二-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "什",
+   "pinyin": "shén",
+   "en": "what (什么)",
+   "lesson": "十二-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    1,
+    2,
+    6,
+    7
+   ]
+  },
+  {
+   "char": "呢",
+   "pinyin": "ne",
+   "en": "(question word)",
+   "lesson": "十二-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    1,
+    3,
+    6
+   ]
+  },
+  {
+   "char": "翅",
+   "pinyin": "chì",
+   "en": "wing",
+   "lesson": "十二-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "膀",
+   "pinyin": "bǎng",
+   "en": "wing (翅膀)",
+   "lesson": "十二-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "左",
+   "pinyin": "zuǒ",
+   "en": "left",
+   "lesson": "十二-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    3
+   ]
+  },
+  {
+   "char": "右",
+   "pinyin": "yòu",
+   "en": "right",
+   "lesson": "十二-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    3
+   ]
+  },
+  {
+   "char": "父",
+   "pinyin": "fù",
+   "en": "father",
+   "lesson": "十二-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "节",
+   "pinyin": "jié",
+   "en": "festival, section",
+   "lesson": "十二-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "蛙",
+   "pinyin": "wā",
+   "en": "frog",
+   "lesson": "十二-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "想",
+   "pinyin": "xiǎng",
+   "en": "think, want",
+   "lesson": "十二-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    1,
+    3,
+    4,
+    6
+   ]
+  },
+  {
+   "char": "捉",
+   "pinyin": "zhuō",
+   "en": "catch",
+   "lesson": "十二-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "荷",
+   "pinyin": "hé",
+   "en": "lotus",
+   "lesson": "十二-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "别",
+   "pinyin": "bié",
+   "en": "don't, other",
+   "lesson": "十二-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    1
+   ]
+  },
+  {
+   "char": "真",
+   "pinyin": "zhēn",
+   "en": "really, true",
+   "lesson": "十二-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    1,
+    2,
+    3,
+    4,
+    7
+   ]
+  },
+  {
+   "char": "没",
+   "pinyin": "méi",
+   "en": "not, haven't",
+   "lesson": "十二-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    3,
+    4,
+    6,
+    7
+   ]
+  },
+  {
+   "char": "久",
+   "pinyin": "jiǔ",
+   "en": "long time",
+   "lesson": "十二-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    4
+   ]
+  },
+  {
+   "char": "它",
+   "pinyin": "tā",
+   "en": "it",
+   "lesson": "十二-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    6
+   ]
+  },
+  {
+   "char": "运",
+   "pinyin": "yùn",
+   "en": "carry, luck",
+   "lesson": "十二-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "第",
+   "pinyin": "dì",
+   "en": "(ordinal: 第一 first)",
+   "lesson": "十二-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    2,
+    4,
+    6,
+    7
+   ]
+  },
+  {
+   "char": "名",
+   "pinyin": "míng",
+   "en": "name",
+   "lesson": "十二-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "char": "到",
+   "pinyin": "dào",
+   "en": "arrive, to",
+   "lesson": "十二-二",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "char": "得",
+   "pinyin": "dé",
+   "en": "get",
+   "lesson": "十二-二",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+   ]
+  },
+  {
+   "char": "养",
+   "pinyin": "yǎng",
+   "en": "raise, keep (pets)",
+   "lesson": "识字四",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "洁",
+   "pinyin": "jié",
+   "en": "clean",
+   "lesson": "识字四",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "羽",
+   "pinyin": "yǔ",
+   "en": "feather",
+   "lesson": "识字四",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "毛",
+   "pinyin": "máo",
+   "en": "fur, hair",
+   "lesson": "识字四",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "肚",
+   "pinyin": "dù",
+   "en": "tummy",
+   "lesson": "识字四",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "饿",
+   "pinyin": "è",
+   "en": "hungry",
+   "lesson": "识字四",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    4
+   ]
+  },
+  {
+   "char": "找",
+   "pinyin": "zhǎo",
+   "en": "look for",
+   "lesson": "识字四",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "食",
+   "pinyin": "shí",
+   "en": "food, eat",
+   "lesson": "识字四",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "物",
+   "pinyin": "wù",
+   "en": "thing",
+   "lesson": "识字四",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "饱",
+   "pinyin": "bǎo",
+   "en": "full (after eating)",
+   "lesson": "识字四",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "坏",
+   "pinyin": "huài",
+   "en": "bad, broken",
+   "lesson": "识字四",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "红",
+   "pinyin": "hóng",
+   "en": "red",
+   "lesson": "识字四",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": []
+  },
+  {
+   "char": "屋",
+   "pinyin": "wū",
+   "en": "house, room",
+   "lesson": "十三-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "娃",
+   "pinyin": "wá",
+   "en": "baby, doll",
+   "lesson": "十三-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "影",
+   "pinyin": "yǐng",
+   "en": "shadow",
+   "lesson": "十三-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "灯",
+   "pinyin": "dēng",
+   "en": "lamp, light",
+   "lesson": "十三-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "光",
+   "pinyin": "guāng",
+   "en": "light",
+   "lesson": "十三-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "比",
+   "pinyin": "bǐ",
+   "en": "compare, than",
+   "lesson": "十三-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    1,
+    2
+   ]
+  },
+  {
+   "char": "东",
+   "pinyin": "dōng",
+   "en": "east",
+   "lesson": "十三-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "墙",
+   "pinyin": "qiáng",
+   "en": "wall",
+   "lesson": "十三-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    6
+   ]
+  },
+  {
+   "char": "兔",
+   "pinyin": "tù",
+   "en": "rabbit",
+   "lesson": "十三-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "西",
+   "pinyin": "xī",
+   "en": "west",
+   "lesson": "十三-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "为",
+   "pinyin": "wèi",
+   "en": "for (为什么 why)",
+   "lesson": "十三-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    6
+   ]
+  },
+  {
+   "char": "拍",
+   "pinyin": "pāi",
+   "en": "pat, clap",
+   "lesson": "十三-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "晚",
+   "pinyin": "wǎn",
+   "en": "evening, late",
+   "lesson": "十三-一",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    2,
+    6,
+    7
+   ]
+  },
+  {
+   "char": "她",
+   "pinyin": "tā",
+   "en": "she, her",
+   "lesson": "十三-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "伞",
+   "pinyin": "sǎn",
+   "en": "umbrella",
+   "lesson": "十三-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "怎",
+   "pinyin": "zěn",
+   "en": "how (怎么)",
+   "lesson": "十三-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    2,
+    3,
+    4,
+    7
+   ]
+  },
+  {
+   "char": "顶",
+   "pinyin": "dǐng",
+   "en": "top",
+   "lesson": "十三-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "盒",
+   "pinyin": "hé",
+   "en": "box",
+   "lesson": "十三-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "遮",
+   "pinyin": "zhē",
+   "en": "cover, shade",
+   "lesson": "十三-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "净",
+   "pinyin": "jìng",
+   "en": "clean",
+   "lesson": "十三-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    5
+   ]
+  },
+  {
+   "char": "出",
+   "pinyin": "chū",
+   "en": "go out",
+   "lesson": "十三-二",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    1,
+    3,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "char": "么",
+   "pinyin": "me",
+   "en": "(那么/这么)",
+   "lesson": "十三-二",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+   ]
+  },
+  {
+   "char": "着",
+   "pinyin": "zhe",
+   "en": "(-ing)",
+   "lesson": "十三-二",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "char": "们",
+   "pinyin": "men",
+   "en": "(plural)",
+   "lesson": "十三-二",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    1,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "char": "干",
+   "pinyin": "gān",
+   "en": "dry (干净 clean)",
+   "lesson": "十三-二",
+   "read": false,
+   "write": true,
+   "new": true,
+   "episodes": [
+    5
+   ]
+  },
+  {
+   "char": "鞋",
+   "pinyin": "xié",
+   "en": "shoe",
+   "lesson": "十四-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "穿",
+   "pinyin": "chuān",
+   "en": "wear, put on",
+   "lesson": "十四-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    7
+   ]
+  },
+  {
+   "char": "耍",
+   "pinyin": "shuǎ",
+   "en": "play (玩耍)",
+   "lesson": "十四-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "国",
+   "pinyin": "guó",
+   "en": "country",
+   "lesson": "十四-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "成",
+   "pinyin": "chéng",
+   "en": "become",
+   "lesson": "十四-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "char": "力",
+   "pinyin": "lì",
+   "en": "strength",
+   "lesson": "十四-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    1,
+    2
+   ]
+  },
+  {
+   "char": "士",
+   "pinyin": "shì",
+   "en": "soldier, person (力士 strongman)",
+   "lesson": "十四-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "跳",
+   "pinyin": "tiào",
+   "en": "jump",
+   "lesson": "十四-一",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "char": "和",
+   "pinyin": "hé",
+   "en": "and",
+   "lesson": "十四-一",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "char": "玩",
+   "pinyin": "wán",
+   "en": "play",
+   "lesson": "十四-一",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    1,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "char": "清",
+   "pinyin": "qīng",
+   "en": "clear",
+   "lesson": "十四-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "蝴",
+   "pinyin": "hú",
+   "en": "butterfly (蝴蝶)",
+   "lesson": "十四-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "蝶",
+   "pinyin": "dié",
+   "en": "butterfly",
+   "lesson": "十四-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "窗",
+   "pinyin": "chuāng",
+   "en": "window",
+   "lesson": "十四-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "前",
+   "pinyin": "qián",
+   "en": "front, before",
+   "lesson": "十四-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    7
+   ]
+  },
+  {
+   "char": "弟",
+   "pinyin": "dì",
+   "en": "younger brother",
+   "lesson": "十四-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "喷",
+   "pinyin": "pēn",
+   "en": "spray",
+   "lesson": "十四-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    6
+   ]
+  },
+  {
+   "char": "报",
+   "pinyin": "bào",
+   "en": "report, newspaper",
+   "lesson": "十四-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "应",
+   "pinyin": "yīng",
+   "en": "should (应该)",
+   "lesson": "十四-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    6,
+    7
+   ]
+  },
+  {
+   "char": "该",
+   "pinyin": "gāi",
+   "en": "should",
+   "lesson": "十四-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    6
+   ]
+  },
+  {
+   "char": "分",
+   "pinyin": "fēn",
+   "en": "divide, minute",
+   "lesson": "十四-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "童",
+   "pinyin": "tóng",
+   "en": "child",
+   "lesson": "十四-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "话",
+   "pinyin": "huà",
+   "en": "words, speech",
+   "lesson": "十四-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    3
+   ]
+  },
+  {
+   "char": "认",
+   "pinyin": "rèn",
+   "en": "recognise",
+   "lesson": "十四-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    1,
+    6
+   ]
+  },
+  {
+   "char": "花",
+   "pinyin": "huā",
+   "en": "flower",
+   "lesson": "十四-二",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": []
+  },
+  {
+   "char": "看",
+   "pinyin": "kàn",
+   "en": "look",
+   "lesson": "十四-二",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+   ]
+  },
+  {
+   "char": "球",
+   "pinyin": "qiú",
+   "en": "ball",
+   "lesson": "十五-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    3
+   ]
+  },
+  {
+   "char": "摇",
+   "pinyin": "yáo",
+   "en": "shake",
+   "lesson": "十五-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "圆",
+   "pinyin": "yuán",
+   "en": "round",
+   "lesson": "十五-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "高",
+   "pinyin": "gāo",
+   "en": "tall, high",
+   "lesson": "十五-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    1,
+    6
+   ]
+  },
+  {
+   "char": "远",
+   "pinyin": "yuǎn",
+   "en": "far",
+   "lesson": "十五-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    1
+   ]
+  },
+  {
+   "char": "生",
+   "pinyin": "shēng",
+   "en": "be born, raw",
+   "lesson": "十五-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "char": "答",
+   "pinyin": "dá",
+   "en": "answer",
+   "lesson": "十五-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "猜",
+   "pinyin": "cāi",
+   "en": "guess",
+   "lesson": "十五-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    6
+   ]
+  },
+  {
+   "char": "新",
+   "pinyin": "xīn",
+   "en": "new",
+   "lesson": "十五-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    4
+   ]
+  },
+  {
+   "char": "当",
+   "pinyin": "dāng",
+   "en": "be, when",
+   "lesson": "十五-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "脸",
+   "pinyin": "liǎn",
+   "en": "face",
+   "lesson": "十五-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "朋",
+   "pinyin": "péng",
+   "en": "friend",
+   "lesson": "十五-一",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    1,
+    4
+   ]
+  },
+  {
+   "char": "友",
+   "pinyin": "yǒu",
+   "en": "friend",
+   "lesson": "十五-一",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    1,
+    4
+   ]
+  },
+  {
+   "char": "鹿",
+   "pinyin": "lù",
+   "en": "deer",
+   "lesson": "十五-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "病",
+   "pinyin": "bìng",
+   "en": "sick",
+   "lesson": "十五-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "角",
+   "pinyin": "jiǎo",
+   "en": "horn, corner",
+   "lesson": "十五-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "变",
+   "pinyin": "biàn",
+   "en": "change",
+   "lesson": "十五-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "他",
+   "pinyin": "tā",
+   "en": "he, him",
+   "lesson": "十五-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "char": "窝",
+   "pinyin": "wō",
+   "en": "nest",
+   "lesson": "十五-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "被",
+   "pinyin": "bèi",
+   "en": "quilt, by",
+   "lesson": "十五-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "打",
+   "pinyin": "dǎ",
+   "en": "hit",
+   "lesson": "十五-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    3,
+    5,
+    6
+   ]
+  },
+  {
+   "char": "站",
+   "pinyin": "zhàn",
+   "en": "stand",
+   "lesson": "十五-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    7
+   ]
+  },
+  {
+   "char": "朵",
+   "pinyin": "duǒ",
+   "en": "(for flowers, clouds)",
+   "lesson": "十五-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "很",
+   "pinyin": "hěn",
+   "en": "very",
+   "lesson": "十五-二",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    1,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "char": "美",
+   "pinyin": "měi",
+   "en": "beautiful",
+   "lesson": "十五-二",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    6
+   ]
+  },
+  {
+   "char": "丽",
+   "pinyin": "lì",
+   "en": "pretty",
+   "lesson": "十五-二",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": []
+  },
+  {
+   "char": "厕",
+   "pinyin": "cè",
+   "en": "toilet",
+   "lesson": "十六-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "所",
+   "pinyin": "suǒ",
+   "en": "place (厕所 toilet)",
+   "lesson": "十六-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    1,
+    4
+   ]
+  },
+  {
+   "char": "洗",
+   "pinyin": "xǐ",
+   "en": "wash",
+   "lesson": "十六-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "澡",
+   "pinyin": "zǎo",
+   "en": "bath",
+   "lesson": "十六-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "电",
+   "pinyin": "diàn",
+   "en": "electricity",
+   "lesson": "十六-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    7
+   ]
+  },
+  {
+   "char": "哭",
+   "pinyin": "kū",
+   "en": "cry",
+   "lesson": "十六-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "肯",
+   "pinyin": "kěn",
+   "en": "willing",
+   "lesson": "十六-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "床",
+   "pinyin": "chuáng",
+   "en": "bed",
+   "lesson": "十六-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    7
+   ]
+  },
+  {
+   "char": "外",
+   "pinyin": "wài",
+   "en": "outside",
+   "lesson": "十六-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    6
+   ]
+  },
+  {
+   "char": "狗",
+   "pinyin": "gǒu",
+   "en": "dog",
+   "lesson": "十六-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "指",
+   "pinyin": "zhǐ",
+   "en": "finger, point",
+   "lesson": "十六-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "道",
+   "pinyin": "dào",
+   "en": "road, way",
+   "lesson": "十六-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    7
+   ]
+  },
+  {
+   "char": "升",
+   "pinyin": "shēng",
+   "en": "rise",
+   "lesson": "十六-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "候",
+   "pinyin": "hòu",
+   "en": "time (时候)",
+   "lesson": "十六-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    2
+   ]
+  },
+  {
+   "char": "火",
+   "pinyin": "huǒ",
+   "en": "fire",
+   "lesson": "十六-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    6
+   ]
+  },
+  {
+   "char": "钟",
+   "pinyin": "zhōng",
+   "en": "clock, bell",
+   "lesson": "十六-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "喊",
+   "pinyin": "hǎn",
+   "en": "shout",
+   "lesson": "十六-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    2
+   ]
+  },
+  {
+   "char": "叫",
+   "pinyin": "jiào",
+   "en": "call",
+   "lesson": "十六-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "char": "踢",
+   "pinyin": "tī",
+   "en": "kick",
+   "lesson": "十六-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "怪",
+   "pinyin": "guài",
+   "en": "strange",
+   "lesson": "十六-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    3,
+    7
+   ]
+  },
+  {
+   "char": "过",
+   "pinyin": "guò",
+   "en": "pass, cross",
+   "lesson": "十六-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    2,
+    3,
+    6,
+    7
+   ]
+  },
+  {
+   "char": "关",
+   "pinyin": "guān",
+   "en": "close",
+   "lesson": "十六-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    6
+   ]
+  },
+  {
+   "char": "可",
+   "pinyin": "kě",
+   "en": "can",
+   "lesson": "十六-二",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    1,
+    2,
+    5,
+    6
+   ]
+  },
+  {
+   "char": "笑",
+   "pinyin": "xiào",
+   "en": "laugh, smile",
+   "lesson": "十六-二",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    1,
+    3
+   ]
+  },
+  {
+   "char": "最",
+   "pinyin": "zuì",
+   "en": "most",
+   "lesson": "十六-二",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    1,
+    5,
+    7
+   ]
+  },
+  {
+   "char": "做",
+   "pinyin": "zuò",
+   "en": "do, make",
+   "lesson": "十六-二",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    1,
+    3,
+    4
+   ]
+  },
+  {
+   "char": "加",
+   "pinyin": "jiā",
+   "en": "add",
+   "lesson": "识字五",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    1,
+    2
+   ]
+  },
+  {
+   "char": "包",
+   "pinyin": "bāo",
+   "en": "bag, wrap",
+   "lesson": "识字五",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "抱",
+   "pinyin": "bào",
+   "en": "hug",
+   "lesson": "识字五",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "宝",
+   "pinyin": "bǎo",
+   "en": "treasure",
+   "lesson": "识字五",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "足",
+   "pinyin": "zú",
+   "en": "foot",
+   "lesson": "识字五",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "赛",
+   "pinyin": "sài",
+   "en": "race, contest",
+   "lesson": "识字五",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    1,
+    2,
+    6,
+    7
+   ]
+  },
+  {
+   "char": "泡",
+   "pinyin": "pào",
+   "en": "bubble, soak",
+   "lesson": "识字五",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "给",
+   "pinyin": "gěi",
+   "en": "give",
+   "lesson": "识字五",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    3,
+    4
+   ]
+  },
+  {
+   "char": "杯",
+   "pinyin": "bēi",
+   "en": "cup",
+   "lesson": "识字五",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "茶",
+   "pinyin": "chá",
+   "en": "tea",
+   "lesson": "识字五",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "奶",
+   "pinyin": "nǎi",
+   "en": "milk",
+   "lesson": "识字五",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "水",
+   "pinyin": "shuǐ",
+   "en": "water",
+   "lesson": "识字五",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    1,
+    2
+   ]
+  },
+  {
+   "char": "云",
+   "pinyin": "yún",
+   "en": "cloud",
+   "lesson": "十七-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "住",
+   "pinyin": "zhù",
+   "en": "live",
+   "lesson": "十七-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    1
+   ]
+  },
+  {
+   "char": "哪",
+   "pinyin": "nǎ",
+   "en": "which, where",
+   "lesson": "十七-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    3,
+    5,
+    7
+   ]
+  },
+  {
+   "char": "追",
+   "pinyin": "zhuī",
+   "en": "chase",
+   "lesson": "十七-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "赶",
+   "pinyin": "gǎn",
+   "en": "hurry, catch up",
+   "lesson": "十七-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "方",
+   "pinyin": "fāng",
+   "en": "square, side",
+   "lesson": "十七-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    7
+   ]
+  },
+  {
+   "char": "法",
+   "pinyin": "fǎ",
+   "en": "way, method",
+   "lesson": "十七-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "颜",
+   "pinyin": "yán",
+   "en": "colour (颜色)",
+   "lesson": "十七-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "都",
+   "pinyin": "dōu",
+   "en": "all",
+   "lesson": "十七-一",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "char": "兄",
+   "pinyin": "xiōng",
+   "en": "older brother",
+   "lesson": "十七-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "题",
+   "pinyin": "tí",
+   "en": "question, topic",
+   "lesson": "十七-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "因",
+   "pinyin": "yīn",
+   "en": "because",
+   "lesson": "十七-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "休",
+   "pinyin": "xiū",
+   "en": "rest",
+   "lesson": "十七-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "息",
+   "pinyin": "xī",
+   "en": "rest (休息)",
+   "lesson": "十七-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "等",
+   "pinyin": "děng",
+   "en": "wait",
+   "lesson": "十七-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    4,
+    6
+   ]
+  },
+  {
+   "char": "请",
+   "pinyin": "qǐng",
+   "en": "please, invite",
+   "lesson": "十七-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    1
+   ]
+  },
+  {
+   "char": "呼",
+   "pinyin": "hū",
+   "en": "breathe, call",
+   "lesson": "十七-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    6,
+    7
+   ]
+  },
+  {
+   "char": "顺",
+   "pinyin": "shùn",
+   "en": "smooth",
+   "lesson": "十七-二",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": []
+  },
+  {
+   "char": "九",
+   "pinyin": "jiǔ",
+   "en": "nine",
+   "lesson": "十八-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "八",
+   "pinyin": "bā",
+   "en": "eight",
+   "lesson": "十八-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    2,
+    5
+   ]
+  },
+  {
+   "char": "日",
+   "pinyin": "rì",
+   "en": "sun, day",
+   "lesson": "十八-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    1,
+    4
+   ]
+  },
+  {
+   "char": "旗",
+   "pinyin": "qí",
+   "en": "flag",
+   "lesson": "十八-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "次",
+   "pinyin": "cì",
+   "en": "time (once/twice)",
+   "lesson": "十八-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "庆",
+   "pinyin": "qìng",
+   "en": "celebrate",
+   "lesson": "十八-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "今",
+   "pinyin": "jīn",
+   "en": "now (今天 today)",
+   "lesson": "十八-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "char": "举",
+   "pinyin": "jǔ",
+   "en": "raise, lift",
+   "lesson": "十八-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "共",
+   "pinyin": "gòng",
+   "en": "together",
+   "lesson": "十八-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "视",
+   "pinyin": "shì",
+   "en": "look (电视 TV)",
+   "lesson": "十八-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "目",
+   "pinyin": "mù",
+   "en": "eye",
+   "lesson": "十八-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "表",
+   "pinyin": "biǎo",
+   "en": "show, watch",
+   "lesson": "十八-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "男",
+   "pinyin": "nán",
+   "en": "male, boy",
+   "lesson": "十八-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "女",
+   "pinyin": "nǚ",
+   "en": "female, girl",
+   "lesson": "十八-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "舞",
+   "pinyin": "wǔ",
+   "en": "dance",
+   "lesson": "十八-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "农",
+   "pinyin": "nóng",
+   "en": "farming",
+   "lesson": "十八-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "田",
+   "pinyin": "tián",
+   "en": "field",
+   "lesson": "十八-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "稻",
+   "pinyin": "dào",
+   "en": "rice plant",
+   "lesson": "十八-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "米",
+   "pinyin": "mǐ",
+   "en": "rice",
+   "lesson": "十八-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "果",
+   "pinyin": "guǒ",
+   "en": "fruit",
+   "lesson": "十八-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "护",
+   "pinyin": "hù",
+   "en": "protect",
+   "lesson": "十八-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "土",
+   "pinyin": "tǔ",
+   "en": "soil, earth",
+   "lesson": "十八-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "桥",
+   "pinyin": "qiáo",
+   "en": "bridge",
+   "lesson": "十九-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "便",
+   "pinyin": "biàn",
+   "en": "convenient",
+   "lesson": "十九-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "平",
+   "pinyin": "píng",
+   "en": "flat",
+   "lesson": "十九-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    6
+   ]
+  },
+  {
+   "char": "背",
+   "pinyin": "bèi",
+   "en": "back, carry on back",
+   "lesson": "十九-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "各",
+   "pinyin": "gè",
+   "en": "each",
+   "lesson": "十九-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "种",
+   "pinyin": "zhǒng",
+   "en": "kind, type",
+   "lesson": "十九-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "害",
+   "pinyin": "hài",
+   "en": "harm",
+   "lesson": "十九-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    1,
+    5,
+    7
+   ]
+  },
+  {
+   "char": "让",
+   "pinyin": "ràng",
+   "en": "let",
+   "lesson": "十九-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "热",
+   "pinyin": "rè",
+   "en": "hot",
+   "lesson": "十九-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    1,
+    5
+   ]
+  },
+  {
+   "char": "彩",
+   "pinyin": "cǎi",
+   "en": "colourful",
+   "lesson": "十九-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "虹",
+   "pinyin": "hóng",
+   "en": "rainbow",
+   "lesson": "十九-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "那",
+   "pinyin": "nà",
+   "en": "that",
+   "lesson": "十九-一",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    2,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "char": "排",
+   "pinyin": "pái",
+   "en": "line up",
+   "lesson": "十九-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    4
+   ]
+  },
+  {
+   "char": "路",
+   "pinyin": "lù",
+   "en": "road",
+   "lesson": "十九-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    7
+   ]
+  },
+  {
+   "char": "叔",
+   "pinyin": "shū",
+   "en": "uncle",
+   "lesson": "十九-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "阿",
+   "pinyin": "ā",
+   "en": "(阿姨 auntie)",
+   "lesson": "十九-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "姨",
+   "pinyin": "yí",
+   "en": "auntie",
+   "lesson": "十九-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "班",
+   "pinyin": "bān",
+   "en": "class",
+   "lesson": "十九-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "直",
+   "pinyin": "zhí",
+   "en": "straight",
+   "lesson": "十九-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    1,
+    5
+   ]
+  },
+  {
+   "char": "立",
+   "pinyin": "lì",
+   "en": "stand",
+   "lesson": "十九-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "送",
+   "pinyin": "sòng",
+   "en": "send, give",
+   "lesson": "十九-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "星",
+   "pinyin": "xīng",
+   "en": "star",
+   "lesson": "十九-二",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    5
+   ]
+  },
+  {
+   "char": "邻",
+   "pinyin": "lín",
+   "en": "neighbour",
+   "lesson": "二十-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "伯",
+   "pinyin": "bó",
+   "en": "uncle (伯伯)",
+   "lesson": "二十-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "活",
+   "pinyin": "huó",
+   "en": "live, work",
+   "lesson": "二十-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "奇",
+   "pinyin": "qí",
+   "en": "strange",
+   "lesson": "二十-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    3,
+    6,
+    7
+   ]
+  },
+  {
+   "char": "自",
+   "pinyin": "zì",
+   "en": "self",
+   "lesson": "二十-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    2,
+    3,
+    5,
+    6
+   ]
+  },
+  {
+   "char": "己",
+   "pinyin": "jǐ",
+   "en": "self (自己)",
+   "lesson": "二十-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    2,
+    3,
+    5,
+    6
+   ]
+  },
+  {
+   "char": "期",
+   "pinyin": "qī",
+   "en": "period, hope",
+   "lesson": "二十-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    5
+   ]
+  },
+  {
+   "char": "浇",
+   "pinyin": "jiāo",
+   "en": "water (plants)",
+   "lesson": "二十-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "二",
+   "pinyin": "èr",
+   "en": "two",
+   "lesson": "二十-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    1,
+    4,
+    6,
+    7
+   ]
+  },
+  {
+   "char": "油",
+   "pinyin": "yóu",
+   "en": "oil",
+   "lesson": "二十-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    1,
+    2,
+    7
+   ]
+  },
+  {
+   "char": "尺",
+   "pinyin": "chǐ",
+   "en": "ruler",
+   "lesson": "二十-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "已",
+   "pinyin": "yǐ",
+   "en": "already",
+   "lesson": "二十-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    6
+   ]
+  },
+  {
+   "char": "眉",
+   "pinyin": "méi",
+   "en": "eyebrow",
+   "lesson": "二十-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "收",
+   "pinyin": "shōu",
+   "en": "collect",
+   "lesson": "二十-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    5
+   ]
+  },
+  {
+   "char": "割",
+   "pinyin": "gē",
+   "en": "cut",
+   "lesson": "二十-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "鼻",
+   "pinyin": "bí",
+   "en": "nose",
+   "lesson": "二十-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "象",
+   "pinyin": "xiàng",
+   "en": "elephant",
+   "lesson": "二十-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "耳",
+   "pinyin": "ěr",
+   "en": "ear",
+   "lesson": "二十-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "尾",
+   "pinyin": "wěi",
+   "en": "tail",
+   "lesson": "二十-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "巴",
+   "pinyin": "bā",
+   "en": "(尾巴 tail)",
+   "lesson": "二十-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "猴",
+   "pinyin": "hóu",
+   "en": "monkey",
+   "lesson": "二十-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "牛",
+   "pinyin": "niú",
+   "en": "cow",
+   "lesson": "二十-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "正",
+   "pinyin": "zhèng",
+   "en": "just, upright",
+   "lesson": "二十-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    3,
+    5
+   ]
+  },
+  {
+   "char": "泥",
+   "pinyin": "ní",
+   "en": "mud",
+   "lesson": "二十-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "谈",
+   "pinyin": "tán",
+   "en": "talk",
+   "lesson": "二十-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "鸭",
+   "pinyin": "yā",
+   "en": "duck",
+   "lesson": "二十-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "办",
+   "pinyin": "bàn",
+   "en": "do, handle",
+   "lesson": "二十-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    2,
+    4
+   ]
+  },
+  {
+   "char": "音",
+   "pinyin": "yīn",
+   "en": "sound",
+   "lesson": "二十-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    7
+   ]
+  },
+  {
+   "char": "狮",
+   "pinyin": "shī",
+   "en": "lion",
+   "lesson": "二十-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "动",
+   "pinyin": "dòng",
+   "en": "move",
+   "lesson": "二十-二",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": []
+  },
+  {
+   "char": "常",
+   "pinyin": "cháng",
+   "en": "often",
+   "lesson": "二十一-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "爷",
+   "pinyin": "yé",
+   "en": "grandpa",
+   "lesson": "二十一-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "告",
+   "pinyin": "gào",
+   "en": "tell",
+   "lesson": "二十一-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    1,
+    4
+   ]
+  },
+  {
+   "char": "诉",
+   "pinyin": "sù",
+   "en": "tell (告诉)",
+   "lesson": "二十一-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    1,
+    4
+   ]
+  },
+  {
+   "char": "昨",
+   "pinyin": "zuó",
+   "en": "yesterday (昨天)",
+   "lesson": "二十一-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "鼠",
+   "pinyin": "shǔ",
+   "en": "mouse",
+   "lesson": "二十一-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "嘴",
+   "pinyin": "zuǐ",
+   "en": "mouth",
+   "lesson": "二十一-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "难",
+   "pinyin": "nán",
+   "en": "hard",
+   "lesson": "二十一-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "容",
+   "pinyin": "róng",
+   "en": "hold (容易 easy)",
+   "lesson": "二十一-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "易",
+   "pinyin": "yì",
+   "en": "easy",
+   "lesson": "二十一-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "吞",
+   "pinyin": "tūn",
+   "en": "swallow",
+   "lesson": "二十一-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "老",
+   "pinyin": "lǎo",
+   "en": "old",
+   "lesson": "二十一-一",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    1
+   ]
+  },
+  {
+   "char": "尖",
+   "pinyin": "jiān",
+   "en": "sharp, pointy",
+   "lesson": "二十一-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "肉",
+   "pinyin": "ròu",
+   "en": "meat",
+   "lesson": "二十一-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "转",
+   "pinyin": "zhuǎn",
+   "en": "turn",
+   "lesson": "二十一-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    7
+   ]
+  },
+  {
+   "char": "逃",
+   "pinyin": "táo",
+   "en": "escape",
+   "lesson": "二十一-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "条",
+   "pinyin": "tiáo",
+   "en": "(for long things)",
+   "lesson": "二十一-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    6
+   ]
+  },
+  {
+   "char": "蛇",
+   "pinyin": "shé",
+   "en": "snake",
+   "lesson": "二十一-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "死",
+   "pinyin": "sǐ",
+   "en": "die",
+   "lesson": "二十一-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    2
+   ]
+  },
+  {
+   "char": "咬",
+   "pinyin": "yǎo",
+   "en": "bite",
+   "lesson": "二十一-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "吃",
+   "pinyin": "chī",
+   "en": "eat",
+   "lesson": "二十一-二",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    2,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "char": "两",
+   "pinyin": "liǎng",
+   "en": "two",
+   "lesson": "二十一-二",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    3,
+    6
+   ]
+  },
+  {
+   "char": "鸡",
+   "pinyin": "jī",
+   "en": "chicken",
+   "lesson": "二十二-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "啼",
+   "pinyin": "tí",
+   "en": "crow (rooster)",
+   "lesson": "二十二-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "醒",
+   "pinyin": "xǐng",
+   "en": "wake up",
+   "lesson": "二十二-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    7
+   ]
+  },
+  {
+   "char": "骂",
+   "pinyin": "mà",
+   "en": "scold",
+   "lesson": "二十二-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    5
+   ]
+  },
+  {
+   "char": "午",
+   "pinyin": "wǔ",
+   "en": "noon",
+   "lesson": "二十二-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    5
+   ]
+  },
+  {
+   "char": "苹",
+   "pinyin": "píng",
+   "en": "apple (苹果)",
+   "lesson": "二十二-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "擦",
+   "pinyin": "cā",
+   "en": "wipe",
+   "lesson": "二十二-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "弄",
+   "pinyin": "nòng",
+   "en": "make, fiddle",
+   "lesson": "二十二-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "痛",
+   "pinyin": "tòng",
+   "en": "hurt, pain",
+   "lesson": "二十二-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "折",
+   "pinyin": "zhé",
+   "en": "fold, snap",
+   "lesson": "二十二-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "断",
+   "pinyin": "duàn",
+   "en": "break",
+   "lesson": "二十二-一",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "谁",
+   "pinyin": "shéi",
+   "en": "who",
+   "lesson": "二十二-一",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": [
+    1
+   ]
+  },
+  {
+   "char": "采",
+   "pinyin": "cǎi",
+   "en": "pick",
+   "lesson": "二十二-一",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": []
+  },
+  {
+   "char": "百",
+   "pinyin": "bǎi",
+   "en": "hundred",
+   "lesson": "二十二-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "齐",
+   "pinyin": "qí",
+   "en": "neat, together",
+   "lesson": "二十二-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "皮",
+   "pinyin": "pí",
+   "en": "skin",
+   "lesson": "二十二-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "垃",
+   "pinyin": "lā",
+   "en": "rubbish (垃圾)",
+   "lesson": "二十二-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "圾",
+   "pinyin": "jī",
+   "en": "rubbish",
+   "lesson": "二十二-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "破",
+   "pinyin": "pò",
+   "en": "broken",
+   "lesson": "二十二-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "拾",
+   "pinyin": "shí",
+   "en": "pick up",
+   "lesson": "二十二-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": [
+    5
+   ]
+  },
+  {
+   "char": "丢",
+   "pinyin": "diū",
+   "en": "throw away, lose",
+   "lesson": "二十二-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "桶",
+   "pinyin": "tǒng",
+   "en": "bucket, bin",
+   "lesson": "二十二-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "扫",
+   "pinyin": "sǎo",
+   "en": "sweep",
+   "lesson": "二十二-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "院",
+   "pinyin": "yuàn",
+   "en": "yard",
+   "lesson": "二十二-二",
+   "read": true,
+   "write": false,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "周",
+   "pinyin": "zhōu",
+   "en": "week, around",
+   "lesson": "二十二-二",
+   "read": true,
+   "write": true,
+   "new": true,
+   "episodes": []
+  },
+  {
+   "char": "张",
+   "pinyin": "zhāng",
+   "en": "(for flat things)",
+   "lesson": "二十二-二",
+   "read": false,
+   "write": true,
+   "new": false,
+   "episodes": [
+    1,
+    4
+   ]
+  }
+ ]
+}

@@ -74,3 +74,86 @@ data={"source":"华文 一年级 课本 — 认读生字与习写生字表 (Year
 json.dump(data,open(ROOT+'/data/year1-words.json','w'),ensure_ascii=False,indent=1)
 cov=sum(1 for c in order if words[c]["episodes"])
 print('covered',cov,'of',len(order))
+
+# ---------------- Year 2: units 11-22 (same textbook table) ----------------
+L2=[("十一","一","同面拉师您助谢握人礼貌气","同面师助点人"),
+("十一","二","买汽车问店存钱能算半年十再辆架吧","车存半年十再"),
+("十二","一","几海马忙孩千什呢翅膀左右父节","马孩左右父节"),
+("十二","二","蛙想捉荷别真没久它运第名","到几别久得名"),
+("识字四","","养洁羽毛肚饿找食物饱坏","养羽毛红找物"),
+("十三","一","屋娃影灯光比东墙兔西为拍","晚光比东西为"),
+("十三","二","她伞怎顶盒遮净","出么着们干净"),
+("十四","一","鞋穿耍国成力士","跳和玩成力士"),
+("十四","二","清蝴蝶窗前弟喷报应该分童话认","前花弟分看话"),
+("十五","一","球摇圆高远生答猜新当脸","球高生朋友脸"),
+("十五","二","鹿病角变他窝被打站朵","变很窝朵美丽"),
+("十六","一","厕所洗澡电哭肯床外狗指道升","电外狗道升"),
+("十六","二","候火钟喊叫踢怪过关","火可笑最关做"),
+("识字五","","加包抱宝足赛泡给杯茶奶","包足水食奶叫"),
+("十七","一","云住哪追赶方法颜","云什都翅追方"),
+("十七","二","兄题因休息等请呼","兄因海顺他呼"),
+("十八","一","九八日旗次庆今举共视目表男女舞","九八日今目男女"),
+("十八","二","农田稻米果护土","农田米果土共"),
+("十九","一","桥便平背各种害让热彩虹","那桥平各害彩"),
+("十九","二","排路叔阿姨班直立送","星灯姨立"),
+("二十","一","邻伯活奇自己期浇二油尺已眉收割","自己二尺已眉收"),
+("二十","二","鼻象耳尾巴猴牛正泥谈鸭办音狮","动鼻象牛正谈音"),
+("二十一","一","常爷告诉昨鼠嘴难容易吞","常老爷办易吞耳"),
+("二十一","二","尖肉转逃条蛇死咬","问吃肉条两气"),
+("二十二","一","鸡啼醒骂午苹擦弄痛折断谁","没午采弄谁巴"),
+("二十二","二","百齐皮垃圾破拾丢桶扫院周","百齐皮张等扫周")]
+PY2={"几":"jǐ","什":"shén","呢":"ne","吧":"ba","为":"wèi","应":"yīng","该":"gāi","当":"dāng","角":"jiǎo","便":"biàn","背":"bèi","种":"zhǒng",
+"巴":"bā","正":"zhèng","难":"nán","转":"zhuǎn","折":"zhé","弄":"nòng","扫":"sǎo","分":"fēn","和":"hé","谁":"shéi","打":"dǎ","给":"gěi","泡":"pào",
+"哪":"nǎ","答":"dá","便":"biàn","伯":"bó","尺":"chǐ","奇":"qí","阿":"ā","干":"gān","空":"kōng","过":"guò","好":"hǎo","得":"dé","着":"zhe","么":"me","们":"men","的":"de","都":"dōu","只":"zhī"}
+EN2={"同":"same, together","面":"face, side","拉":"pull","师":"teacher","您":"you (polite)","助":"help","谢":"thank","握":"hold, grip","人":"person","礼":"gift, manners","貌":"looks (礼貌 polite)","气":"air, breath",
+"买":"buy","汽":"steam (汽车 car)","车":"car, vehicle","问":"ask","店":"shop","存":"save, keep","钱":"money","能":"can, able","算":"count, calculate","半":"half","年":"year","十":"ten","再":"again","辆":"(for vehicles)","架":"shelf, frame","吧":"(let's…)",
+"几":"how many, a few","海":"sea","马":"horse","忙":"busy","孩":"child","千":"thousand","什":"what (什么)","呢":"(question word)","翅":"wing","膀":"wing (翅膀)","左":"left","右":"right","父":"father","节":"festival, section",
+"蛙":"frog","想":"think, want","捉":"catch","荷":"lotus","别":"don't, other","真":"really, true","没":"not, haven't","久":"long time","它":"it","运":"carry, luck","第":"(ordinal: 第一 first)","名":"name",
+"到":"arrive, to","得":"(得 — how well)",
+"养":"raise, keep (pets)","洁":"clean","羽":"feather","毛":"fur, hair","肚":"tummy","饿":"hungry","找":"look for","食":"food, eat","物":"thing","饱":"full (after eating)","坏":"bad, broken","红":"red",
+"屋":"house, room","娃":"baby, doll","影":"shadow","灯":"lamp, light","光":"light","比":"compare, than","东":"east","墙":"wall","兔":"rabbit","西":"west","为":"for (为什么 why)","拍":"pat, clap",
+"晚":"evening, late","她":"she, her","伞":"umbrella","怎":"how (怎么)","顶":"top","盒":"box","遮":"cover, shade","净":"clean","出":"go out","么":"(什么/怎么)","着":"(-ing)","们":"(plural)","干":"dry (干净 clean)",
+"鞋":"shoe","穿":"wear, put on","耍":"play (玩耍)","国":"country","成":"become","力":"strength","士":"soldier, person (力士 strongman)","跳":"jump","和":"and","玩":"play",
+"清":"clear","蝴":"butterfly (蝴蝶)","蝶":"butterfly","窗":"window","前":"front, before","弟":"younger brother","喷":"spray","报":"report, newspaper","应":"should (应该)","该":"should","分":"divide, minute","童":"child","话":"words, speech","认":"recognise","花":"flower","看":"look",
+"球":"ball","摇":"shake","圆":"round","高":"tall, high","远":"far","生":"be born, raw","答":"answer","猜":"guess","新":"new","当":"be, when","脸":"face","朋":"friend","友":"friend",
+"鹿":"deer","病":"sick","角":"horn, corner","变":"change","他":"he, him","窝":"nest","被":"quilt, by","打":"hit","站":"stand","朵":"(for flowers, clouds)","很":"very","美":"beautiful","丽":"pretty",
+"厕":"toilet","所":"place (厕所 toilet)","洗":"wash","澡":"bath","电":"electricity","哭":"cry","肯":"willing","床":"bed","外":"outside","狗":"dog","指":"finger, point","道":"road, way","升":"rise",
+"候":"time (时候)","火":"fire","钟":"clock, bell","喊":"shout","叫":"call","踢":"kick","怪":"strange","过":"pass, cross","关":"close","可":"can","笑":"laugh","最":"most","做":"do, make",
+"加":"add","包":"bag, wrap","抱":"hug","宝":"treasure","足":"foot","赛":"race, contest","泡":"bubble, soak","给":"give","杯":"cup","茶":"tea","奶":"milk","水":"water",
+"云":"cloud","住":"live","哪":"which, where","追":"chase","赶":"hurry, catch up","方":"square, side","法":"way, method","颜":"colour (颜色)","都":"all",
+"兄":"older brother","题":"question, topic","因":"because","休":"rest","息":"rest (休息)","等":"wait","请":"please, invite","呼":"breathe, call","顺":"smooth",
+"九":"nine","八":"eight","日":"sun, day","旗":"flag","次":"time (once/twice)","庆":"celebrate","今":"now (今天 today)","举":"raise, lift","共":"together","视":"look (电视 TV)","目":"eye","表":"show, watch","男":"male, boy","女":"female, girl","舞":"dance",
+"农":"farming","田":"field","稻":"rice plant","米":"rice","果":"fruit","护":"protect","土":"soil, earth",
+"桥":"bridge","便":"convenient","平":"flat","背":"back, carry on back","各":"each","种":"kind, type","害":"harm","让":"let","热":"hot","彩":"colourful","虹":"rainbow","那":"that",
+"排":"line up","路":"road","叔":"uncle","阿":"(阿姨 auntie)","姨":"auntie","班":"class","直":"straight","立":"stand","送":"send, give","星":"star",
+"邻":"neighbour","伯":"uncle (伯伯)","活":"live, work","奇":"strange","自":"self","己":"self (自己)","期":"period, hope","浇":"water (plants)","二":"two","油":"oil","尺":"ruler","已":"already","眉":"eyebrow","收":"collect","割":"cut",
+"鼻":"nose","象":"elephant","耳":"ear","尾":"tail","巴":"(尾巴 tail)","猴":"monkey","牛":"cow","正":"just, upright","泥":"mud","谈":"talk","鸭":"duck","办":"do, handle","音":"sound","狮":"lion","动":"move",
+"常":"often","爷":"grandpa","告":"tell","诉":"tell (告诉)","昨":"yesterday (昨天)","鼠":"mouse","嘴":"mouth","难":"hard","容":"hold (容易 easy)","易":"easy","吞":"swallow","老":"old",
+"尖":"sharp, pointy","肉":"meat","转":"turn","逃":"escape","条":"(for long things)","蛇":"snake","死":"die","咬":"bite","吃":"eat","两":"two",
+"鸡":"chicken","啼":"crow (rooster)","醒":"wake up","骂":"scold","午":"noon","苹":"apple (苹果)","擦":"wipe","弄":"make, fiddle","痛":"hurt, pain","折":"fold, snap","断":"break","谁":"who","采":"pick",
+"百":"hundred","齐":"neat, together","皮":"skin","垃":"rubbish (垃圾)","圾":"rubbish","破":"broken","拾":"pick up","丢":"throw away, lose","桶":"bucket, bin","扫":"sweep","院":"yard","周":"week, around","张":"(for flat things)"}
+def py2(c): return PY2.get(c) or PY.get(c) or pinyin(c,style=Style.TONE)[0][0]
+y1=set(order)
+w2={}; order2=[]
+for unit,lesson,r,w in L2:
+    tag=unit if not lesson else f"{unit}-{lesson}"
+    for c in r+w:
+        if c not in w2:
+            w2[c]={"char":c,"pinyin":(words[c]["pinyin"] if c in words else py2(c)),"en":(words[c]["en"] if c in words else EN2.get(c,"")),
+                   "lesson":tag,"read":False,"write":False,"new":c not in y1}
+            order2.append(c)
+    for c in r: w2[c]["read"]=True
+    for c in w: w2[c]["write"]=True
+print('year2 chars',len(order2),'new',sum(w2[c]["new"] for c in order2),'missing meanings',[c for c in order2 if not w2[c]["en"]])
+used2={}
+for p in sorted(glob.glob(ROOT+'/ep*/index.html')):
+    s=open(p).read(); text=''.join(re.findall(r'data-line="([^"]+)"',s))+''.join(re.findall(r'data-show="([^"]+)"',s))
+    ep=int(re.search(r'ep(\d+)/',p).group(1))
+    for c in set(text):
+        if c in w2: used2.setdefault(c,[]).append(ep)
+for c in order2: w2[c]["episodes"]=sorted(set(used2.get(c,[])))
+lessons2=[{"unit":u,"lesson":l,"tag":(u if not l else f"{u}-{l}"),"read":list(r),"write":list(w)} for u,l,r,w in L2]
+json.dump({"source":"华文 一年级 课本 — 认读生字与习写生字表 (Year 2: 第十一 to 第二十二单元)","lessons":lessons2,"chars":[w2[c] for c in order2]},
+          open(ROOT+'/data/year2-words.json','w'),ensure_ascii=False,indent=1)
+nw=[c for c in order2 if w2[c]["new"]]
+print('year2 new covered',sum(1 for c in nw if w2[c]["episodes"]),'of',len(nw))
