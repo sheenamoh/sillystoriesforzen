@@ -3362,7 +3362,9 @@
    "lesson": "九-一",
    "read": true,
    "write": true,
-   "episodes": []
+   "episodes": [
+    7
+   ]
   },
   {
    "char": "最",
@@ -3615,7 +3617,9 @@
    "lesson": "十-一",
    "read": true,
    "write": true,
-   "episodes": []
+   "episodes": [
+    7
+   ]
   },
   {
    "char": "后",
