@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="zh-CN" translate="no" class="notranslate">
+<head>
+<meta charset="utf-8">
+<meta name="google" content="notranslate">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>幻想世界（二） · 第七集</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Noto+Sans+SC:wght@400;500;700&family=Nunito:wght@600;800&display=swap">
+<style>
+html{-webkit-text-size-adjust:100%}
+/* Layout: sticky reading-help bar, then a single comic column — intro cast, six square panels with short lines above each, then a closing question. Paper + crayon palette taken from the drawings. */
+:root{
+  --paper:#FBF8F1; --card:#FFFFFF; --ink:#22252B; --muted:#6A6F7A;
+  --sea:#2F6FD0; --sea-soft:#E3EEFB; --crayon:#E2533B; --sun:#F4C534; --line:#DCD6C8;
+  --tapped:#FFF0B8;
+  --display:"ZCOOL KuaiLe","Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+  --body:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+  --latin:"Nunito","Noto Sans SC",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#1B1D22; --card:#25282F; --ink:#F1EEE6; --muted:#A9ADB6;
+  --sea:#7FB0F5; --sea-soft:#22324A; --crayon:#FF8169; --sun:#F4C534; --line:#3A3E47; --tapped:#4A4220; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#1B1D22; --card:#25282F; --ink:#F1EEE6; --muted:#A9ADB6;
+  --sea:#7FB0F5; --sea-soft:#22324A; --crayon:#FF8169; --sun:#F4C534; --line:#3A3E47; --tapped:#4A4220; color-scheme:dark}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);margin:0}
+.wrap{max-width:760px;margin:0 auto;padding:24px 16px 120px;display:flex;flex-direction:column;gap:36px}
+
+header{text-align:center;display:flex;flex-direction:column;gap:8px;align-items:center}
+.ep{font-family:var(--latin);font-weight:800;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(2.6rem,11vw,4rem);margin:0;line-height:1.05;color:var(--sea);text-wrap:balance}
+.idiom{display:inline-flex;gap:8px;align-items:center;background:var(--card);border:2px dashed var(--line);border-radius:999px;padding:6px 14px;font-size:1.05rem}
+.idiom b{font-family:var(--display);font-weight:400;font-size:1.3rem;color:var(--crayon)}
+.idiom{flex-wrap:wrap;justify-content:center;text-align:center}
+.idiom .tr{flex-basis:100%}
+.hint{font-size:.85rem;color:var(--muted);font-family:var(--latin);font-weight:600}
+
+/* cast */
+.cast{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.member{display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center}
+.member img{width:100%;max-width:120px;aspect-ratio:1;border-radius:50%;border:3px solid var(--ink);object-fit:cover;background:#fff}
+.member .who{font-size:clamp(1rem,4.4vw,1.3rem);line-height:1.6}
+
+/* panels */
+.panel{display:flex;flex-direction:column;gap:12px}
+.wrap{gap:44px}
+.num{font-family:var(--display);font-size:1.1rem;color:var(--muted)}
+figure{margin:0 auto;width:100%;max-width:560px;position:relative;container-type:inline-size;border:3px solid var(--ink);border-radius:6px;overflow:hidden;background:#fff;box-shadow:4px 5px 0 var(--ink)}
+figure img{display:block;width:100%;height:auto}
+.bub{position:absolute;display:flex;align-items:center;justify-content:center;text-align:center;
+  font-family:var(--display);color:#22252B;line-height:1.15;white-space:nowrap;padding:0 .4cqw;cursor:pointer;border:0;background:transparent;border-radius:40%}
+.bub:hover,.bub:focus-visible{background:rgba(47,111,208,.10);outline:none}
+.bub:focus-visible{outline:2px dashed #2F6FD0}
+.sign{position:absolute;display:flex;align-items:center;justify-content:center;font-family:var(--display);color:#22252B;cursor:pointer;border:0;background:transparent;padding:0}
+.red{color:#D9412A}
+.tapme{position:absolute;right:1.2cqw;bottom:1.2cqw;background:#22252B;color:#fff;font-family:var(--latin);font-weight:800;font-size:clamp(10px,1.9cqw,13px);padding:.4em .8em;border-radius:999px;pointer-events:none;opacity:.85}
+
+.panel .story{max-width:560px;margin:0 auto;width:100%}
+.story{font-size:clamp(1.45rem,6vw,1.75rem);line-height:1.8;display:flex;flex-direction:column;gap:2px}
+.story.question{font-family:var(--display);color:var(--crayon);text-align:center;font-size:clamp(1.6rem,7vw,2.1rem)}
+.story p{margin:0}
+.w{white-space:nowrap;cursor:pointer;border-radius:4px;padding:0 1px;transition:background .15s}
+.w:hover{background:var(--sea-soft)}
+.w.seen{background:var(--tapped)}
+.w.active{background:var(--sea);color:var(--paper)}
+.say{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;border:2px solid var(--ink);background:var(--card);color:var(--ink);vertical-align:middle;margin-left:6px;cursor:pointer}
+.say svg{width:18px;height:18px}
+.say:focus-visible,.btn:focus-visible,.vote button:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+
+.question{font-family:var(--display);font-size:clamp(1.6rem,7vw,2.2rem);color:var(--crayon);text-align:center;line-height:1.5}
+
+/* vote */
+.vote{display:flex;flex-direction:column;gap:14px;align-items:center;text-align:center;background:var(--card);border:3px solid var(--ink);border-radius:18px;padding:22px 16px}
+.vote h2{font-family:var(--display);font-weight:400;font-size:1.8rem;margin:0}
+.choices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;width:100%}
+.vote button{display:flex;flex-direction:column;align-items:center;gap:6px;border:3px solid transparent;border-radius:16px;background:transparent;padding:8px 4px;cursor:pointer;color:var(--ink);font-family:var(--display);font-size:1.25rem}
+.vote button img{width:100%;max-width:96px;aspect-ratio:1;border-radius:50%;border:3px solid var(--ink);object-fit:cover;transition:transform .15s}
+.vote button:hover img{transform:scale(1.06) rotate(-3deg)}
+.vote button.picked{border-color:var(--sun);background:var(--sea-soft)}
+.vote button.dim{opacity:.4}
+.pick2{grid-template-columns:repeat(2,minmax(0,1fr));max-width:340px}
+.words3 button{border:3px solid var(--ink);background:var(--paper);font-size:clamp(1.3rem,6vw,1.7rem);padding:12px 4px;min-height:72px;justify-content:center}
+.words3 .w{cursor:inherit}
+.navrow{align-self:stretch;display:flex;gap:8px;flex-wrap:wrap}
+.back{font-family:var(--latin);font-weight:800;font-size:.85rem;color:var(--sea);text-decoration:none;border:2px solid var(--line);border-radius:999px;padding:4px 12px}
+.back:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+.result{font-size:1.3rem;line-height:1.8;min-height:1.8em}
+.nextlink{display:flex;flex-direction:column;align-items:center;gap:2px;text-decoration:none;font-family:var(--display);font-size:1.6rem;color:var(--sea);border:3px solid var(--sea);border-radius:14px;padding:10px 18px}
+.nextlink small{font-family:var(--latin);font-weight:800;font-size:.8rem}
+.nextlink .w{cursor:inherit}
+.next{font-family:var(--display);font-size:1.6rem;color:var(--sea)}
+
+details.mum{border-top:2px dashed var(--line);padding-top:16px;font-family:var(--latin);color:var(--muted)}
+details.mum summary{cursor:pointer;font-weight:800}
+.mumlist{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.chip{font-family:var(--body);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:4px 10px;color:var(--ink)}
+.chip small{color:var(--muted);margin-left:4px}
+.btn{font-family:var(--latin);font-weight:800;border:2px solid var(--ink);background:var(--card);color:var(--ink);border-radius:999px;padding:6px 14px;cursor:pointer;margin-top:12px}
+
+/* bottom sheets */
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:20;display:flex;justify-content:center;padding:0 12px calc(12px + env(safe-area-inset-bottom,0px));pointer-events:none}
+.sheet>div{pointer-events:auto;width:100%;max-width:560px;background:var(--card);border:3px solid var(--ink);border-radius:20px;box-shadow:0 8px 0 var(--ink);padding:16px 18px;display:flex;gap:14px;align-items:center;animation:up .18s ease-out}
+@keyframes up{from{transform:translateY(20px);opacity:.3}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){.sheet>div{animation:none}.vote button img{transition:none}}
+#wordCard .han{font-family:var(--display);font-size:2.6rem;line-height:1;white-space:nowrap}
+#wordCard .info{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+#wordCard .py{font-family:var(--latin);font-weight:800;font-size:1.3rem;color:var(--sea)}
+#wordCard .en{font-family:var(--latin);font-weight:600;font-size:1.05rem;color:var(--muted)}
+.x{border:0;background:transparent;color:var(--muted);font-size:1.6rem;cursor:pointer;line-height:1;padding:4px;align-self:flex-start}
+#lineSheet{position:absolute;left:3%;right:3%;z-index:15;display:block}
+#lineSheet>div{background:var(--card);border:3px solid var(--ink);border-radius:18px;box-shadow:0 5px 0 var(--ink);padding:12px 12px 12px 14px;display:flex;gap:12px;align-items:flex-start;animation:pop .15s ease-out}
+@keyframes pop{from{transform:scale(.96);opacity:.4}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){#lineSheet>div{animation:none}}
+#lineSheet img{width:44px;height:44px;border-radius:50%;border:2px solid var(--ink);object-fit:cover;flex:none}
+#lineSheet .body{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px}
+#lineSheet .name{font-family:var(--latin);font-weight:800;color:var(--muted);font-size:.9rem}
+#lineSheet .line{font-size:clamp(1.5rem,6.4vw,1.9rem);line-height:1.6}
+/* toggle bar */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;padding:10px 16px;background:var(--paper);border-bottom:2px dashed var(--line)}
+.barlbl{font-family:var(--latin);font-weight:800;font-size:.8rem;color:var(--muted);margin-right:2px}
+.tog{display:inline-flex;align-items:center;gap:7px;white-space:nowrap;font-family:var(--latin);font-weight:800;font-size:.95rem;border:2px solid var(--ink);background:var(--card);color:var(--ink);border-radius:999px;padding:6px 14px 6px 8px;cursor:pointer}
+.tog .dot{width:30px;height:18px;border-radius:999px;background:var(--line);position:relative;transition:background .15s}
+.tog .dot::after{content:"";position:absolute;top:2px;left:2px;width:14px;height:14px;border-radius:50%;background:var(--card);border:1px solid var(--muted);transition:transform .15s}
+.tog[aria-pressed="true"]{background:var(--sea-soft)}
+.tog[aria-pressed="true"] .dot{background:var(--sea)}
+.tog[aria-pressed="true"] .dot::after{transform:translateX(12px);border-color:var(--sea)}
+.tog:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.tog .dot,.tog .dot::after{transition:none}}
+/* how-to strip */
+.howto{display:flex;align-items:flex-start;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:6px}
+.howto .step{display:flex;flex-direction:column;align-items:center;gap:4px;min-width:72px}
+.howto .lbl{font-family:var(--latin);font-weight:700;font-size:.78rem;color:var(--muted)}
+.howto .demo{font-family:var(--display);font-size:2rem;line-height:1.2;border-bottom:3px dotted var(--sea)}
+.howto .arrow{font-family:var(--latin);font-weight:800;color:var(--muted);font-size:1.2rem;margin-top:10px}
+.chipx{font-family:var(--latin);font-weight:800;font-size:1.05rem;border-radius:10px;padding:6px 10px;background:var(--ink);color:var(--paper);margin-top:4px}
+.chipx.en{background:var(--card);color:var(--ink);border:2px solid var(--ink)}
+/* per-word pinyin + per-line English */
+.tk .p{display:none}
+.tr{display:none}
+body.show-py .tk{display:inline-flex;flex-direction:column;align-items:center;vertical-align:top;line-height:1.2}
+body.show-py .tk .p{display:block;font-family:var(--latin);font-weight:700;font-size:max(.56em,12px);color:var(--sea);line-height:1.3;white-space:nowrap;padding:0 .12em}
+body.show-py .tk.pu .p{visibility:hidden}
+body.show-py .story p,body.show-py .who,body.show-py #lsLine{line-height:1.25}
+body.show-py .story{gap:10px}
+body.show-en .tr{display:block;font-family:var(--latin);font-weight:600;font-size:max(.55em,.9rem);color:var(--muted);line-height:1.35;margin:2px 0 6px;text-align:inherit}
+body.show-en .story.question .tr{color:var(--muted)}
+body.show-en .story{gap:2px}
+.w.active .p{color:var(--paper)}
+#tip{position:fixed;z-index:40;transform:translate(-50%,-100%);background:var(--ink);color:var(--paper);border-radius:14px;padding:8px 14px;text-align:center;pointer-events:none;max-width:min(80vw,280px);box-shadow:0 4px 0 rgba(0,0,0,.18)}
+#tip::after{content:"";position:absolute;left:50%;bottom:-8px;transform:translateX(-50%);border:8px solid transparent;border-bottom:0;border-top-color:var(--ink)}
+#tip .py{font-family:var(--latin);font-weight:800;font-size:1.25rem;white-space:nowrap}
+#tip .en{font-family:var(--latin);font-weight:700;font-size:1.05rem;color:var(--ink);background:var(--paper);border-radius:8px;padding:3px 8px;margin-top:6px}
+#tip .more{font-family:var(--latin);font-weight:600;font-size:.75rem;opacity:.65;margin-top:2px}
+</style>
+</head>
+<body translate="no" class="notranslate">
+
+<div class="bar" role="toolbar" aria-label="Reading help">
+  <span class="barlbl">Show all:</span>
+  <button class="tog" id="togPy" type="button" aria-pressed="false"><span class="dot" aria-hidden="true"></span>Pinyin</button>
+  <button class="tog" id="togEn" type="button" aria-pressed="false"><span class="dot" aria-hidden="true"></span>English</button>
+</div>
+<div class="wrap">
+  <header>
+    <nav class="navrow"><a class="back" href="../">← All episodes</a><a class="back" href="../ep6/">Episode 6</a></nav>
+    <div class="ep">Episode 7</div>
+    <h1>幻想世界（二）</h1>
+    <div class="idiom"><span data-line="今天的|成语" data-en="Today's idiom"></span><b data-line="大惊失色" data-en="so shocked you go pale"></b></div>
+    <div class="howto" aria-label="How to read">
+      <div class="step"><span class="demo" data-line="跳"></span><span class="lbl">Tap a word</span></div>
+      <span class="arrow" aria-hidden="true">→</span>
+      <div class="step"><span class="chipx py">tiào</span><span class="lbl">1 tap: pinyin</span></div>
+      <span class="arrow" aria-hidden="true">→</span>
+      <div class="step"><span class="chipx en">jump</span><span class="lbl">2 taps: meaning</span></div>
+    </div>
+    <div class="hint">Try it on 跳 above. Tap a speech bubble to read it in big letters.</div>
+  </header>
+
+  <section class="cast" aria-label="Characters" style="grid-template-columns:repeat(2,minmax(0,1fr));max-width:300px;margin-left:auto;margin-right:auto">
+    <div class="member"><img src="face-cat.jpg" alt="Little Lazy Cat"><div class="who" data-line="猫|名叫|小懒猫|。" data-en="The cat is called Little Lazy Cat."></div></div>
+    <div class="member"><img src="face-penguin.jpg" alt="Xiao Lin the penguin"><div class="who" data-line="企鹅|名叫|小林|。" data-en="The penguin is called Xiao Lin."></div></div>
+  </section>
+
+  <section class="panel">
+    <div class="story"><p data-line="第二天|晚上|，|小懒猫|躺在|床上|看书|。" data-en="The next evening, Little Lazy Cat lay on his bed reading."></p><p data-line="那|是|他|最|喜欢的|赛车|书|。" data-en="It was his favourite racing car book."></p><p data-line="他|越看越|入迷|。" data-en="The more he read, the more absorbed he got."></p></div>
+    <figure>
+      <img src="sq1.jpg?v=1" alt="The cat lies on his bed reading a racing car book; a voice calls through the open bedroom door" width="900" height="900">
+      <button class="bub" data-who="cat" data-line="哇|，|这辆|赛车|真的|好|酷|！" data-en="Wow, this racing car is so cool!" data-show="哇，这辆赛车/真的好酷！" style="left:35.0%;top:6.0%;width:21.7%;height:14.3%;font-size:3.2cqw;line-height:1.25"></button><button class="bub" data-who="penguin" data-line="小懒猫|，|你|睡觉|了|吗|？" data-en="Little Lazy Cat, are you asleep yet?" data-show="小懒猫，/你睡觉了吗？" style="left:63.4%;top:12.1%;width:21.2%;height:11.8%;font-size:3.2cqw;line-height:1.25"></button>
+    </figure>
+  </section>
+  <section class="panel">
+    <div class="story"><p data-line="忽然|，|写着|“|赛车|”|的|那扇门|亮了起来|。" data-en="Suddenly, the door that said “racing car” lit up."></p><p data-line="门|后面|传来了|奇怪的|声音|。" data-en="A strange sound came from behind the door."></p></div>
+    <figure>
+      <img src="sq2.jpg?v=1" alt="The cat looks up from his bed as the racing car door glows and noises come from behind it" width="900" height="900">
+      <button class="bub" data-who="cat" data-line="咦|？|那|是|什么|声音|？" data-en="Huh? What's that sound?" data-show="咦？那是/什么声音？" style="left:31.9%;top:6.9%;width:21.8%;height:14.4%;font-size:4.0cqw;line-height:1.25"></button><button class="bub" data-who="door" data-line="轰隆隆|！|呼|——|呼|——|！" data-en="Vroom vroom! Whoosh — whoosh —!" data-show="轰隆隆！/呼——/呼——！" style="left:72.9%;top:15.7%;width:19.8%;height:13.3%;font-size:3.3cqw;line-height:1.25"></button>
+    </figure>
+  </section>
+  <section class="panel">
+    <div class="story"><p data-line="一眨眼|，|小懒猫|坐在了|赛车|里|。" data-en="In the blink of an eye, Little Lazy Cat was sitting in a racing car."></p><p data-line="他|穿着|赛车服|。" data-en="He was wearing a racing suit."></p><p data-line="小林|站在|赛车|旁|。" data-en="Xiao Lin stood beside the car."></p><p data-line="小懒猫|踩下|油门|，|赛车|冲了出去|！" data-en="Little Lazy Cat pressed the accelerator, and the car shot off!"></p></div>
+    <figure>
+      <img src="sq3.jpg?v=1" alt="The cat in a helmet and racing suit sits in an orange race car while the penguin pit crew waves" width="900" height="900">
+      <button class="bub" data-who="penguin" data-line="轮胎|换好|啦|！|赛车|准备|完毕|！" data-en="Tyres changed! The car is ready!" data-show="轮胎换好啦！/赛车/准备完毕！" style="left:23.1%;top:4.6%;width:25.2%;height:15.4%;font-size:3.8cqw;line-height:1.25"></button>
+    </figure>
+  </section>
+  <section class="panel">
+    <div class="story"><p data-line="赛车|开得|飞快|。" data-en="The car went super fast."></p><p data-line="忽然|，|前面的|赛车|都|向|他|开过来|！" data-en="Suddenly, all the cars in front were coming towards him!"></p><p data-line="原来|，|他|开反了|方向|！" data-en="It turned out he was driving the wrong way!"></p><p data-line="小懒猫|大惊失色|。" data-en="Little Lazy Cat went pale with shock."></p></div>
+    <figure>
+      <img src="sq4.jpg?v=1" alt="Seen from behind, the cat's car faces oncoming cars; a puzzled orca and an angry fox drive towards him" width="900" height="900">
+      <button class="bub" data-who="fox" data-line="喂|！|你|开反|啦|！" data-en="Hey! You're going the wrong way!" data-show="喂！/你开反啦！" style="left:71.9%;top:3.3%;width:25.7%;height:18.6%;font-size:4.6cqw;line-height:1.25"></button>
+    </figure>
+  </section>
+  <section class="panel">
+    <div class="story"><p data-line="小懒猫|的|反应|超快|。" data-en="Little Lazy Cat reacted super fast."></p><p data-line="赛车|在|地上|转了|好几圈|。" data-en="The car spun round and round on the track."></p></div>
+    <figure>
+      <img src="sq5.jpg?v=1" alt="The orange race car spins doughnuts in clouds of smoke while the penguin clutches his face" width="900" height="900">
+      <button class="bub" data-who="cat" data-line="哈哈|，|我|真|厉害|！" data-en="Haha, I'm so awesome!" data-show="哈哈，/我真厉害！" style="left:25.8%;top:22.2%;width:19.2%;height:12.7%;font-size:3.5cqw;line-height:1.25"></button><button class="bub" data-who="penguin" data-line="天哪|！" data-en="Oh my goodness!" style="left:77.1%;top:2.8%;width:16.9%;height:11.2%;font-size:5.1cqw;line-height:1.25"></button>
+    </figure>
+  </section>
+  <section class="panel">
+    <div class="story"><p data-line="小懒猫|开得|越来越快|，|像|闪电|一样|。" data-en="Little Lazy Cat drove faster and faster, like lightning."></p><p data-line="突然|，|前面的|路|不见了|！" data-en="Suddenly, the road ahead disappeared!"></p><p data-line="小懒猫|脑子|里|一片空白|。" data-en="Little Lazy Cat's mind went completely blank."></p></div>
+    <figure>
+      <img src="sq6.jpg?v=1" alt="The race car shoots off the edge of a broken track over a huge valley; the cat looks terrified" width="900" height="900">
+      <button class="bub" data-who="cat" data-line="啊|！|路|……|路|没了|？|！" data-en="Argh! The road… the road is gone?!" data-show="啊！路……/路没了？！" style="left:7.8%;top:18.3%;width:26.1%;height:10.3%;font-size:3.9cqw;line-height:1.25"></button><button class="bub" data-who="cat" data-line="完了|，|完了|，|完了|！" data-en="Oh no, oh no, oh no!" data-show="完了，完了，/完了！" style="left:71.1%;top:68.0%;width:23.3%;height:12.2%;font-size:3.5cqw;line-height:1.25"></button>
+    </figure>
+  </section>
+  <section class="vote" aria-label="Your turn">
+    <h2 data-line="你|觉得|小懒猫|会|怎么样|？" data-en="What do you think will happen to Little Lazy Cat?"></h2>
+    <div class="choices words3">
+      <button id="v-fall" data-pick="fall"><span data-line="掉下去" data-en="fall down"></span></button>
+      <button id="v-fly" data-pick="fly"><span data-line="飞起来" data-en="fly up"></span></button>
+      <button id="v-wake" data-pick="wake"><span data-line="醒过来" data-en="wake up"></span></button>
+    </div>
+    <div class="result" id="result" aria-live="polite"></div>
+    <a class="nextlink" href="../"><span data-line="下一集|……" data-en="Next episode…"></span><small>All episodes →</small></a>
+  </section>
+
+  <details class="mum">
+    <summary>For parents: words looked up on this device</summary>
+    <div class="mumlist" id="mumlist"></div>
+    <button class="btn" id="resetSeen" type="button">Clear the list</button>
+  </details>
+</div>
+
+<div id="lineSheet" hidden><div>
+  <img id="lsFace" src="" alt="">
+  <div class="body"><div class="name" id="lsName"></div><div class="line" id="lsLine"></div></div>
+  <button class="x" id="lsClose" type="button" aria-label="Close">×</button>
+</div></div>
+
+<div id="tip" hidden role="status"></div>
+
+<script>
+const DICT={"今天的": ["jīn tiān de", "today's"], "成语": ["chéng yǔ", "idiom (4-character saying)"], "跳": ["tiào", "jump"], "下一集": ["xià yì jí", "next episode"], "企鹅": ["qǐ é", "penguin"], "名叫": ["míng jiào", "is called, named"], "小林": ["xiǎo lín", "Xiao Lin — the penguin's name"], "猫": ["māo", "cat"], "小懒猫": ["xiǎo lǎn māo", "Little Lazy Cat — the cat's name"], "大惊失色": ["dà jīng shī sè", "so shocked you go pale (idiom)"], "第二天": ["dì èr tiān", "the next day"], "晚上": ["wǎn shang", "evening, night"], "躺在": ["tǎng zài", "lying on"], "床上": ["chuáng shàng", "on the bed"], "看书": ["kàn shū", "read a book"], "那": ["nà", "that"], "是": ["shì", "is"], "他": ["tā", "he, him"], "最": ["zuì", "most"], "喜欢的": ["xǐ huan de", "favourite"], "赛车": ["sài chē", "racing car"], "书": ["shū", "book"], "越看越": ["yuè kàn yuè", "the more he read, the more…"], "入迷": ["rù mí", "absorbed, hooked"], "哇": ["wā", "wow"], "这辆": ["zhè liàng", "this (car)"], "真的": ["zhēn de", "really"], "好": ["hǎo", "so, very"], "酷": ["kù", "cool"], "你": ["nǐ", "you"], "睡觉": ["shuì jiào", "sleep"], "了": ["le", "(done / !)"], "吗": ["ma", "(question word)"], "忽然": ["hū rán", "suddenly"], "写着": ["xiě zhe", "with … written on it"], "的": ["de", "(of / 's)"], "那扇门": ["nà shàn mén", "that door"], "亮了起来": ["liàng le qǐ lái", "lit up"], "门": ["mén", "door"], "后面": ["hòu miàn", "behind"], "传来了": ["chuán lái le", "came (a sound)"], "奇怪的": ["qí guài de", "strange"], "声音": ["shēng yīn", "sound"], "咦": ["yí", "huh?"], "什么": ["shén me", "what"], "轰隆隆": ["hōng lōng lōng", "rumble, vroom"], "呼": ["hū", "whoosh"], "一眨眼": ["yì zhǎ yǎn", "in the blink of an eye"], "坐在了": ["zuò zài le", "was sitting in"], "里": ["lǐ", "in, inside"], "穿着": ["chuān zhe", "wearing"], "赛车服": ["sài chē fú", "racing suit"], "站在": ["zhàn zài", "standing at"], "旁": ["páng", "beside"], "踩下": ["cǎi xià", "stepped on"], "油门": ["yóu mén", "accelerator"], "冲了出去": ["chōng le chū qù", "shot off"], "轮胎": ["lún tāi", "tyres"], "换好": ["huàn hǎo", "changed (done)"], "啦": ["la", "(!)"], "准备": ["zhǔn bèi", "get ready"], "完毕": ["wán bì", "finished, all done"], "开得": ["kāi de", "drove (how)"], "飞快": ["fēi kuài", "super fast"], "前面的": ["qián miàn de", "in front"], "都": ["dōu", "all"], "向": ["xiàng", "towards"], "开过来": ["kāi guò lái", "drive over"], "原来": ["yuán lái", "it turned out"], "开反了": ["kāi fǎn le", "drove the wrong way"], "方向": ["fāng xiàng", "direction"], "喂": ["wèi", "hey!"], "开反": ["kāi fǎn", "drive the wrong way"], "反应": ["fǎn yìng", "reaction"], "超快": ["chāo kuài", "super fast"], "在": ["zài", "on, at"], "地上": ["dì shàng", "on the ground"], "转了": ["zhuàn le", "spun"], "好几圈": ["hǎo jǐ quān", "several times round"], "哈哈": ["hā hā", "haha"], "我": ["wǒ", "I, me"], "真": ["zhēn", "really"], "厉害": ["lì hai", "awesome"], "天哪": ["tiān na", "oh my goodness!"], "越来越快": ["yuè lái yuè kuài", "faster and faster"], "像": ["xiàng", "like"], "闪电": ["shǎn diàn", "lightning"], "一样": ["yí yàng", "the same as"], "突然": ["tū rán", "suddenly"], "路": ["lù", "road"], "不见了": ["bú jiàn le", "disappeared"], "脑子": ["nǎo zi", "brain, mind"], "一片空白": ["yí piàn kòng bái", "completely blank"], "啊": ["a", "ah!"], "没了": ["méi le", "gone"], "完了": ["wán le", "it's over, oh no"], "觉得": ["jué de", "think"], "会": ["huì", "will"], "怎么样": ["zěn me yàng", "what will happen"], "掉下去": ["diào xià qù", "fall down"], "飞起来": ["fēi qǐ lái", "fly up"], "醒过来": ["xǐng guò lái", "wake up"], "希望": ["xī wàng", "hope"], "没事": ["méi shì", "is okay"], "飞": ["fēi", "fly"], "也许": ["yě xǔ", "maybe"], "这": ["zhè", "this"], "只是": ["zhǐ shì", "only"], "一个": ["yí gè", "a, one"], "梦": ["mèng", "dream"]};
+const WHO={penguin:["小林","face-penguin.jpg"],cat:["小懒猫","face-cat.jpg"],fox:["狐狸","face-fox.jpg"],door:["神秘门","face-door.jpg"]};
+
+let seen={};
+try{seen=JSON.parse(localStorage.getItem('story7-seen')||'{}')}catch(e){seen={}}
+function saveSeen(){try{localStorage.setItem('story7-seen',JSON.stringify(seen))}catch(e){}}
+
+function words(line){
+  return line.split('|').map(t=>DICT[t]
+    ?`<span class="w tk${seen[t]?' seen':''}" data-k="${t}"><span class="h">${t}</span><span class="p">${DICT[t][0]}</span></span>`
+    :`<span class="tk pu"><span class="h">${t}</span><span class="p">·</span></span>`).join('');
+}
+function withEn(line,en){return words(line)+(en?`<span class="tr">${en}</span>`:'')}
+function plain(line){return line.split('|').join('')}
+
+/* render text */
+document.querySelectorAll('[data-line]').forEach(el=>{
+  const line=el.dataset.line;
+  if(el.classList.contains('bub')){el.innerHTML=(el.dataset.show||plain(line)).split('/').join('<br>');el.setAttribute('aria-label',plain(line));return}
+  el.innerHTML=withEn(line,el.dataset.en);
+});
+
+/* word audio: the device's Chinese voice reads a word when it is first tapped */
+let zhVoice=null;
+function pickVoice(){try{const v=speechSynthesis.getVoices();zhVoice=v.find(x=>/zh[-_]CN/i.test(x.lang))||v.find(x=>/^zh/i.test(x.lang))||null}catch(e){}}
+if('speechSynthesis' in window){pickVoice();speechSynthesis.onvoiceschanged=pickVoice}
+function speak(t){try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='zh-CN';u.rate=.8;if(zhVoice)u.voice=zhVoice;speechSynthesis.speak(u)}catch(e){}}
+
+/* tap once: pinyin, tap again: meaning, tap a third time: hide */
+const tip=document.getElementById('tip');let tipEl=null,tipStep=0;
+function placeTip(){if(!tipEl)return;const r=tipEl.getBoundingClientRect();
+  let x=r.left+r.width/2;const half=Math.min(tip.offsetWidth/2,window.innerWidth/2-8);x=Math.max(half+8,Math.min(window.innerWidth-half-8,x));
+  tip.style.left=x+'px';tip.style.top=(r.top-10)+'px'}
+function hideTip(){tip.hidden=true;if(tipEl)tipEl.classList.remove('active');tipEl=null;tipStep=0}
+function tapWord(el){
+  const k=el.dataset.k,d=DICT[k];if(!d)return;
+  if(tipEl===el){tipStep++}else{if(tipEl)tipEl.classList.remove('active');tipEl=el;tipStep=1;el.classList.add('active')}
+  if(tipStep>2){hideTip();return}
+  tip.innerHTML=`<div class="py">${d[0]}</div>`+(tipStep===2?`<div class="en">${d[1]}</div>`:`<div class="more">tap again for meaning</div>`);
+  tip.hidden=false;placeTip();
+  if(tipStep===1){speak(k);seen[k]=(seen[k]||0)+1;saveSeen();document.querySelectorAll(`.w[data-k="${k}"]`).forEach(x=>x.classList.add('seen'));renderMum()}
+}
+document.addEventListener('click',e=>{
+  if(e.target.closest('.choices,.nextlink'))return;
+  const w=e.target.closest('.w,.sign');
+  if(w){tapWord(w);return}
+  const b=e.target.closest('.bub');
+  if(b){hideTip();openLine(b);return}
+  if(!e.target.closest('#lineSheet')){hideTip();ls.hidden=true}
+});
+window.addEventListener('scroll',hideTip,{passive:true});
+window.addEventListener('resize',hideTip);
+
+/* line sheet for bubbles */
+const ls=document.getElementById('lineSheet');let curLine='';
+function openLine(b){
+  const [name,face]=WHO[b.dataset.who];
+  document.getElementById('lsFace').src=face;
+  document.getElementById('lsName').textContent=name;
+  document.getElementById('lsLine').innerHTML=withEn(b.dataset.line,b.dataset.en);
+  curLine=plain(b.dataset.line);
+  const fig=b.closest('figure');fig.appendChild(ls);ls.hidden=false;
+  const fr=fig.getBoundingClientRect(),br=b.getBoundingClientRect(),h=ls.offsetHeight;
+  const below=br.bottom-fr.top+8, above=br.top-fr.top-h-8;
+  let top=(below+h<=fr.height-6)?below:(above>=6?above:Math.max(6,fr.height-h-6));
+  ls.style.top=top+'px';
+  const r=ls.getBoundingClientRect();
+  if(r.top<0||r.bottom>window.innerHeight){try{ls.scrollIntoView({block:'nearest',behavior:'smooth'})}catch(e){ls.scrollIntoView(false)}}
+}
+document.getElementById('lsClose').addEventListener('click',()=>{ls.hidden=true;hideTip()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){ls.hidden=true;hideTip()}});
+
+/* vote */
+const LINES={fall:'啊|——|！|希望|他|没事|！',fly:'哇|，|赛车|会|飞|！',wake:'也许|……|这|只是|一个|梦|？'};
+const LINES_EN={fall:'Aaah! Hope he is okay!',fly:'Wow, a flying racing car!',wake:'Maybe… it is only a dream?'};
+function showVote(p){
+  document.querySelectorAll('.choices button').forEach(x=>{x.classList.toggle('picked',x.dataset.pick===p);x.classList.toggle('dim',x.dataset.pick!==p)});
+  document.getElementById('result').innerHTML=withEn(LINES[p],LINES_EN[p]);
+}
+document.querySelectorAll('.choices button').forEach(b=>b.addEventListener('click',()=>{
+  const p=b.dataset.pick;showVote(p);
+  try{localStorage.setItem('story7-vote',p)}catch(e){}
+}));
+try{const v=localStorage.getItem('story7-vote');if(v&&LINES[v])showVote(v)}catch(e){}
+
+/* toggles */
+function setTog(id,cls,on){document.body.classList.toggle(cls,on);document.getElementById(id).setAttribute('aria-pressed',on?'true':'false');try{localStorage.setItem('story7-'+cls,on?'1':'0')}catch(e){}}
+[['togPy','show-py'],['togEn','show-en']].forEach(([id,cls])=>{
+  let on=false;try{on=localStorage.getItem('story7-'+cls)==='1'}catch(e){}
+  setTog(id,cls,on);
+  document.getElementById(id).addEventListener('click',()=>{hideTip();setTog(id,cls,!document.body.classList.contains(cls))});
+});
+
+/* parents list */
+function renderMum(){
+  const box=document.getElementById('mumlist');
+  const items=Object.entries(seen).sort((a,b)=>b[1]-a[1]);
+  box.innerHTML=items.length?items.map(([k,n])=>`<span class="chip">${k}<small>${DICT[k]?DICT[k][0]:''} ×${n}</small></span>`).join(''):'<span>No words looked up yet.</span>';
+}
+renderMum();
+document.getElementById('resetSeen').addEventListener('click',()=>{seen={};saveSeen();document.querySelectorAll('.w.seen').forEach(x=>x.classList.remove('seen'));renderMum()});
+</script>
+
+</body>
+</html>
