@@ -3431,7 +3431,8 @@
    "read": true,
    "write": true,
    "episodes": [
-    3
+    3,
+    7
    ]
   },
   {
@@ -3443,7 +3444,8 @@
    "write": false,
    "episodes": [
     4,
-    6
+    6,
+    7
    ]
   },
   {
